@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
+Disallow: /scripts/
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://ecodibba.com/sitemap.xml

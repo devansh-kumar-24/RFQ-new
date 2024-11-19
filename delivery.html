@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-control" content="public">
+  <title>High-Quality Packaging Solutions | ecodibba </title>
+  <meta name="description" content="Explore ecodibba's dynamic gallery of premium packaging materials, featuring detailed photos, sizes, and descriptions. Discover versatile, durable packaging options designed to meet all your business needs.">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+  <style>
+    * {
+      scroll-behavior: smooth;
+      transition: 1500ms;
+      scrollbar-width: none;
+      /* Hide scrollbar in Firefox */
+      -ms-overflow-style: none;
+    }
+
+    *::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    body {
+      width: fit-content;
+      scrollbar-width: none;
+      /* Hide scrollbar in Firefox */
+      -ms-overflow-style: none;
+      font-family: Outfit;
+
+    }
+
+
+
+
+
+    .container {
+      width: 100%;
+    }
+
+    #side-button {
+      display: none;
+    }
+
+    .paralax {
+      display: block;
+      /* Enable flexbox layout */
+      /* Align items in a row */
+      overflow: clip;
+      /* Enable horizontal scrolling */
+      scroll-snap-type: x mandatory;
+      /* Enable snap scrolling */
+      width: 100vw;
+      /* Ensure the container takes up the full viewport width */
+      height: fit-content;
+      scrollbar-width: none;
+      /* Hide scrollbar in Firefox */
+      -ms-overflow-style: none;
+      /* Hide scrollbar in IE and Edge */
+      /* Ensure the container takes up the full viewport height */
+    }
+
+    .paralax>section {
+      display: flex;
+      /* Prevent sections from growing or shrinking */
+      width: 100vw;
+      height: 100%;
+      /* Ensure each section takes up the full viewport width */
+      overflow: clip;
+      /* Ensure each section takes up the full viewport height */
+      scroll-snap-align: start;
+      /* Snap to the start of each section */
+      scrollbar-width: none;
+      /* Hide scrollbar in Firefox */
+      -ms-overflow-style: none;
+    }
+
+    .paralax::-webkit-scrollbar {
+      display: none;
+      /* Hide scrollbar in WebKit browsers */
+    }
+
+    .paralax>section::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    #loader1 {
+      height: 700px;
+      z-index: 10;
+
+
+    }
+
+    #links {
+      width: 50%;
+      display: flexbox;
+      flex-direction: row;
+      position: fixed;
+      right: -10%;
+
+    }
+
+
+
+    #side-menu {
+      background-color: #ffffff;
+      color: rgb(0, 185, 65);
+      height: 100vh;
+      width: 80%;
+      position: fixed;
+      transition-duration: 700ms;
+      top: 0;
+      z-index: 499;
+      transform: translateX(-100%);
+    }
+
+    #side-menu>nav {
+      display: block;
+      color: rgb(0, 185, 65);
+    }
+
+    .side-links {
+      padding: 3%;
+      border-radius: 55px;
+    }
+
+    .side-links:hover {
+      background-color: #2c3e50;
+      color: rgb(0, 185, 65);
+      cursor: pointer;
+    }
+
+    nav>a {
+      border-radius: 35px;
+
+    }
+
+    nav>a:hover {
+      cursor: pointer;
+    }
+
+
+
+    @media only screen and (min-width: 320px) {
+      #sec-testimonial {
+        width: 98%;
+      }
+
+      #phno {
+        display: none;
+      }
+
+      .swiper-button-prev {
+        margin-top: 40%;
+
+      }
+
+      #img-gallery {
+
+        width: 100%;
+        margin: auto;
+      }
+
+      .scroll-container {
+        width: 100%;
+        height: 50rem;
+        overflow: hidden;
+        position: relative;
+        margin-top: 37%;
+      }
+
+      .scroll-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        padding-bottom: 25%;
+      }
+
+      #links {
+        display: none;
+      }
+
+      #head-logo {
+        margin-left: 4%;
+        margin-top: 5%;
+      }
+
+      #head-logo>img {
+        width: 30%;
+      }
+
+      #side-button {
+        display: flex;
+        top: -3%;
+        margin-top: 2%;
+      }
+
+
+
+      #f-logo {
+        display: none;
+      }
+
+      #f-link {
+        display: none;
+      }
+
+      #f-logo,
+      #f-link,
+      #fs-link {
+        margin-top: -3%;
+      }
+
+    }
+
+
+    @media only screen and (min-width: 768px) {
+      .scroll-container {
+        width: 100%;
+        height: 50rem;
+        overflow: hidden;
+        position: relative;
+        margin-top: 7%;
+      }
+
+      #head-logo>img {
+        width: 20%;
+      }
+
+      #img-gallery {
+
+        width: 100%;
+        margin: auto;
+      }
+
+      #sec-testimonial {
+        width: 90%;
+      }
+
+      #head-logo {
+        margin-left: 3%;
+        margin-top: 2.3%;
+      }
+
+      #side-button {
+        display: flex;
+        top: -3%;
+        margin-top: 2%;
+      }
+
+
+      .swiper-button-prev {
+        margin-top: 5%;
+
+      }
+
+      .scroll-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        padding-bottom: 25%;
+      }
+
+      #f-logo {
+        display: flex;
+      }
+
+      #f-link {
+        display: flex;
+      }
+
+      #f-logo,
+      #f-link,
+      #fs-link {
+        margin-top: 0%;
+      }
+
+    }
+
+    .scroll-content {
+      padding-top: 2%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .scroll-container {
+        width: 100%;
+        height: 70rem;
+        overflow: hidden;
+        position: relative;
+        margin-top: 2%;
+      }
+
+      #phno {
+        display: flex;
+      }
+
+      #img-gallery {
+
+        width: 40%;
+        margin: auto;
+      }
+
+      #sec-testimonial {
+        margin-top: -5%;
+        padding-bottom: 5%;
+        width: 80%;
+      }
+
+      .scroll-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        padding-bottom: 25%;
+      }
+
+
+
+      #side-button {
+        display: none;
+      }
+
+      #head-logo {
+        margin-left: 5%;
+        margin-top: 1%;
+      }
+
+
+
+
+
+      #links {
+        display: inline;
+        width: 50%;
+        display: flexbox;
+        flex-direction: row;
+        position: fixed;
+        right: -4%;
+        margin-top: 5%;
+
+      }
+
+      #print {
+        margin-top: -9.3%;
+      }
+
+
+    }
+
+    @media only screen and (min-width: 1440px) {
+      #head-logo {
+        margin-left: 5%;
+        margin-top: 1%;
+      }
+
+
+      #img-gallery {
+
+        width: 37%;
+        margin: auto;
+      }
+
+
+      #links {
+        display: inline;
+        width: 50%;
+        display: flexbox;
+        flex-direction: row;
+        position: fixed;
+        right: -10%;
+        margin-top: 4%;
+
+      }
+
+    }
+
+    .txt-btn {
+      padding: 0.5%;
+      border-radius: 25px;
+      padding-left: 1%;
+      padding-right: 1%;
+      transition-duration: 1000;
+      margin-top: 3%;
+    }
+
+    .txt-btn:hover {
+      color: #fff;
+      background-color: rgb(0, 185, 65);
+      cursor: pointer;
+
+    }
+
+    .box-type:hover {
+      cursor: pointer;
+
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 400px;
+      /* Adjust height if needed */
+      overflow: hidden;
+      padding: 20px 0;
+    }
+
+    .swiper-wrapper {
+      display: flex;
+      transition-property: transform;
+      margin: auto;
+    }
+
+    .swiper-slide {
+      flex-shrink: 0;
+      width: 100%;
+      /* Adjust width if needed */
+      height: 100%;
+      /* Ensure slides are properly sized */
+      transition-duration: 100ms;
+      border-radius: 10px;
+    }
+
+    section {
+      margin: auto;
+    }
+
+    .header {
+      background-color: #00111f;
+      width: 100vw;
+      height: 10%;
+      box-shadow: 0px 2px 25px rgb(0, 5, 21)
+    }
+
+    footer {
+      width: 100vw;
+      background-color: #ffffff;
+    }
+
+    .footer {
+      background-color: #ffffff;
+
+      height: 10%;
+
+
+    }
+
+    .swiper-slide:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+
+    .swiper-pagination-bullet {
+      background-color: #00111f;
+      opacity: 1;
+      /* Ensure bullets are fully visible */
+      border: 1px solid rgb(0, 185, 65);
+
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: rgb(0, 185, 65);
+      /* Darker green for the active bullet */
+      box-shadow: 0 1px 6px #fff;
+    }
+
+    .text-green-500 {
+      color: rgb(0, 185, 65);
+  }
+
+    .text-green-400 {
+      color: rgb(0, 185, 65);
+    }
+
+    .bg-green-500 {
+      background-color: rgb(0, 185, 65);
+    }
+
+    .notification {
+      display: none;
+
+    }
+
+    .testimonial {
+      width: 80%;
+      transform: scale(0.8);
+
+
+    }
+
+    .testimonial:hover {
+      box-shadow: none;
+      border: none;
+      transform: scale(1);
+    }
+
+    .partners {
+
+      transition-duration: 600;
+
+    }
+
+    .partners>img {
+      transform: scale(0.7);
+      box-shadow: 0px 0px 30px #00111f;
+    }
+
+    .partners:hover {
+      box-shadow: none;
+      border: none;
+      transform: scale(1.1);
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(100%);
+
+      }
+
+      to {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0%);
+
+      }
+    }
+
+    @keyframes slide-left {
+      from {
+        opacity: 0;
+        transform: translateX(-150%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes slide-right {
+      from {
+        opacity: 0;
+        transform: translateX(150%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
+
+    .up-animate {
+      animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+
+    }
+
+    .left-animate {
+      animation: slide-left 2s linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+    }
+
+    .right-animate {
+      animation: slide-right 2s linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+    }
+
+    .paralax {
+      background-color: #ffffff;
+      color: #00111f;
+    }
+
+    .paralax>section {
+      background-color: #ffffff;
+      color: #1f2021;
+    }
+
+    .paralax>section>h1 {
+      color: #1f2021;
+    }
+
+    section {
+      background-color: #fffefe;
+      color: #1f2021;
+    }
+
+    li:hover {
+      cursor: pointer;
+    }
+
+    ul {
+
+      margin-left: 50px;
+    }
+
+    .scrolling-text {
+      margin: auto;
+       white-space: nowrap;
+       color: white;
+       font-size: 1rem;
+       /* Readable font size */
+       font-weight: bold;
+       
+       /* Start off-screen */
+   }
+  </style>
+</head>
+
+<body>
+
+  <section class="text-gray-400 bg-gray-900 body-font  " id="side-menu">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <nav style="display:flex;flex-direction:column;text-align:left;">
+          <a class="mr-5 hover:text-green-500 side-links"
+            onclick="window.location.href = 'index.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="window.location.href = 'gallery.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="document.getElementById('side-menu').style.transform = 'translateX(-100%)';window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+            for Quotation</a>
+
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="window.location.href = 'categories.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="window.location.href = 'payments.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="document.getElementById('menu').scrollIntoView();document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';"
+            style="display: none;">Products</a>
+
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="window.location.href = 'about.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+            Us</a>
+          <a class="mr-5 hover:text-gray-900 side-links"
+            onclick="window.location.href = 'blogs.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+        </nav>
+      </div>
+  </section>
+
+  <header class="bg-white-900 text-green-500 body-font mx-auto" style="z-index: 700;width:85vw;font-size:x-large;">
+    <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+      <!-- Logo aligned to the left -->
+      <a class="flex title-font font-medium text-gray-900" href="https://ecodibba.com/">
+
+        <img loading="lazy" src="assets/logo.png" alt="logo" class="h-12">
+
+
+      </a>
+
+
+      <!-- Toggle button for mobile -->
+      <button
+        class="md:hidden inline-flex items-center bg-white text-base border-0 py-1 px-3 focus:outline-none  rounded "
+        onclick="toggle()">
+        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+
+      <!-- Navigation links aligned to the right -->
+      <nav id="nav-links" class="hidden md:flex flex-wrap items-center text-base justify-end space-x-6 text-xl"
+        id="links">
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'index.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'gallery.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+        <a class="hover:text-gray-800"
+          onclick="window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+          for Quotation</a>
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'categories.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'payments.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'about.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+          Us</a>
+        <a class="hover:text-gray-800"
+          onclick="window.location.href = 'blogs.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+      </nav>
+
+    </div>
+    <!-- Mobile Menu -->
+
+  </header>
+  <hr>
+
+  <div class="fixed bottom-0 right-0 mb-20 mr-4 bg-gray-800 text-white p-4 rounded flex items-center space-x-2"
+    style="border-radius: 20px 20px 0px 20px;z-index:501;">
+    <a href="https://wa.me/9654327527" target="_blank" class="flex items-center space-x-2">
+      <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+      <span class="text-sm">Chat with us!</span>
+    </a>
+  </div>
+  <div class=" paralax">
+
+
+    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+      <div class="container py-20 px-10 mx-auto flex flex-wrap lg:flex-nowrap w-full">
+        <div class="lg:w-3/9 lg:py-6 mb-6 lg:mb-0 relative flex-shrink-0" id="img-gallery">
+          <div class="relative group">
+            <img loading="lazy" id="mainImage" alt="Animated Night Hill Illustrations"
+              class="w-full h-full object-cover object-center rounded" src="">
+            <div id="zoomContainer"
+              class="absolute hidden group-hover:block w-48 h-48 bg-black bg-opacity-50 rounded-lg pointer-events-none">
+            </div>
+          </div>
+          <div class="flex mt-4 space-x-2 justify-center overflow-x-auto">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img1">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img2">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img3">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img4">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img5">
+            <img loading="lazy" alt="thumbnail"
+              class="w-20 h-20 object-cover object-center rounded border-2 border-gray-800 cursor-pointer hover:border-green-500"
+              src="" id="img6">
+          </div>
+          <div class="flex justify-between mt-4">
+            <button class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
+              onclick="window.open('https:/'+'/rfq.ecodibba.com/','_blank')">Request Quote</button>
+            <button
+              class="rounded-full w-10 h-10 bg-gray-800 p-0 border-0 inline-flex items-center justify-center text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="lg:w-1/2 mx-auto lg:pr-10 lg:py-6 ml-5 flex-grow">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest text-left" id="name">BRAND NAME</h2>
+          <div class="flex mb-4 justify-start">
+            <a
+              class="flex-grow text-green-400 border-b-2 border-green-500 py-2 text-lg px-1 text-left cursor-pointer">Description</a>
+            <!-- <a class="flex-grow border-b-2 border-gray-800 py-2 text-lg px-1 text-left cursor-pointer">Reviews</a> -->
+          </div>
+
+          <div class="leading-relaxed mb-4 p-4 h-48 overflow-y-auto text-right text-justify" id="description">
+
+          </div>
+
+          <div class="flex border-t border-gray-800 py-2">
+            <span class="text-gray-500" id="colour">Color</span>
+          </div>
+          <div class="flex border-t border-gray-800 py-2">
+            <span class="text-gray-500" id="specification">Specification</span>
+          </div>
+          <div class="flex border-t border-b mb-6 border-gray-800 py-2">
+            <span class="text-gray-500" id="category">Category</span>
+            <span class="ml-auto text-white">4</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="privacy">
+      <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+        <section class=" body-font relative">
+          <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 class="text-3xl font-bold  mb-4">Privacy & Policy</h1>
+
+            </div>
+
+            <div class="w-full lg:w-2/3 mx-auto text-left">
+              <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+              <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+              <br>
+              <p class="mb-4">This Privacy Policy describes how ecodibba.com ("we", "us", or "our") collects, uses, and
+                discloses information, including personal information, that we obtain through your use of our B2B
+                e-commerce and customized packaging website (<a href="http://www.ecodibba.com"
+                  class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+              <p class="mb-4">By accessing or using the Site, you agree to the terms of this Privacy Policy. If you do
+                not agree with the terms of this Privacy Policy, please do not access or use the Site.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">1. Information We Collect</h2>
+              <p class="mb-4">We may collect the following types of information when you use our Site:</p>
+              <p class="mb-4"><strong>Personal Information:</strong> When you register for an account, make a purchase,
+                or interact with our Site, we may collect personal information such as your name, company name, contact
+                information, billing and shipping address, and payment details.</p>
+              <p class="mb-4"><strong>Log Data:</strong> Like many websites, we automatically collect certain
+                information that your browser sends whenever you visit our Site. This may include your IP address,
+                browser type, browser version, the pages you visit, the time and date of your visit, and other
+                statistics.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">2. How We Use Your Information</h2>
+              <p class="mb-4">We use the information we collect for the following purposes:</p>
+              <ul class="list-disc pl-6 mb-4">
+                <li>To provide, maintain, and improve our services.</li>
+                <li>To process transactions and fulfill orders.</li>
+                <li>To communicate with you, including responding to your inquiries and providing customer support.</li>
+                <li>To send you marketing and promotional materials (you can opt-out of receiving marketing
+                  communications).</li>
+              </ul>
+
+              <h2 class="text-2xl font-semibold mb-2">3. Information Sharing and Disclosure</h2>
+              <p class="mb-4">We may share your information with third parties under the following circumstances:</p>
+              <ul class="list-disc pl-6 mb-4">
+                <li>With your consent.</li>
+                <li>To third-party service providers who help us operate our business and provide services.</li>
+                <li>In connection with a business transaction, such as a merger, acquisition, or sale of assets.</li>
+                <li>To comply with legal obligations or to protect and defend our rights and property.</li>
+              </ul>
+
+              <h2 class="text-2xl font-semibold mb-2">4. Security</h2>
+              <p class="mb-4">We take reasonable measures to protect the information we collect from unauthorized
+                access, disclosure, alteration, and destruction.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">5. Your Choices</h2>
+              <p class="mb-4">You have choices regarding the collection and use of your information:</p>
+              <ul class="list-disc pl-6 mb-4">
+                <li>You can update or correct your account information.</li>
+                <li>You can opt-out of receiving marketing communications.</li>
+              </ul>
+
+              <h2 class="text-2xl font-semibold mb-2">6. Changes to This Privacy Policy</h2>
+              <p class="mb-4">We may update our Privacy Policy from time to time. We will notify you of any changes by
+                posting the new Privacy Policy on this page.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">7. Contact Us</h2>
+              <p class="mb-4">If you have any questions about this Privacy Policy, please contact us at +91-9654-327-527
+                or <a href="mailto:contact@ecodibba.com" class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+            </div>
+
+            <div class="flex justify-center mt-8">
+              <div class="p-2">
+                <button
+                  class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                  onclick="document.getElementById('privacy').style.display='none'">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="terms">
+      <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+        <section class="text-black body-font relative">
+          <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 class="text-3xl font-bold mb-4">TERMS OF USE</h1>
+
+            </div>
+
+            <div class="w-full lg:w-2/3 mx-auto text-left">
+              <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+              <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+              <br>
+              <p class="mb-4">Please read these terms and conditions carefully before using ecodibba.com ("we," "us," or
+                "our") B2B e-commerce and customized packaging website (<a href="http://www.ecodibba.com"
+                  class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+              <h2 class="text-2xl font-semibold mb-2">1. Acceptance of Terms</h2>
+              <p class="mb-4">By accessing or using the Site, you agree to be bound by these terms and conditions. If
+                you do not agree with any part of these terms, please do not use the Site.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">2. Registration and Accounts</h2>
+              <p class="mb-4">To use certain features of the Site, you may be required to register for an account. You
+                agree to provide accurate and current information during the registration process and to update such
+                information to keep it accurate and current.</p>
+              <p class="mb-4">You are responsible for maintaining the confidentiality of your account and password and
+                for restricting access to your account.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">3. Product Information and Customization</h2>
+              <p class="mb-4">We make every effort to display accurate and current information about our products.
+                However, we do not warrant the accuracy, completeness, or reliability of any product descriptions or
+                images on the Site.</p>
+              <p class="mb-4">Customized or made-to-order items may have variations, and you acknowledge that such
+                variations are inherent in the customization process.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">4. Pricing and Payment</h2>
+              <p class="mb-4">Prices for products are as displayed on the Site and are subject to change without notice.
+              </p>
+              <p class="mb-4">We reserve the right to refuse or cancel orders, including those with incorrect pricing or
+                product information.</p>
+              <p class="mb-4">Payment is required at the time of order placement. We accept [list accepted payment
+                methods].</p>
+
+              <h2 class="text-2xl font-semibold mb-2">5. Order Acceptance and Confirmation</h2>
+              <p class="mb-4">Order acceptance occurs when we send an order confirmation email.</p>
+              <p class="mb-4">We reserve the right to refuse or cancel orders at any time, including due to product
+                availability, inaccuracies, or errors in product or pricing information.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">6. Intellectual Property</h2>
+              <p class="mb-4">All content on the Site, including text, images, graphics, and logos, is the property of
+                ecodibba.com and is protected by intellectual property laws.</p>
+              <p class="mb-4">You may not use, reproduce, distribute, or display any part of the Site without our prior
+                written consent.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">7. Limitation of Liability</h2>
+              <p class="mb-4">To the extent permitted by law, we shall not be liable for any indirect, incidental,
+                special, consequential, or punitive damages, or any loss of profits or revenues.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">8. Governing Law</h2>
+              <p class="mb-4">These terms and conditions are governed by and construed in accordance with the laws of
+                [Your Jurisdiction].</p>
+
+              <h2 class="text-2xl font-semibold mb-2">9. Changes to Terms and Conditions</h2>
+              <p class="mb-4">We reserve the right to update, change, or replace any part of these terms and conditions
+                at our discretion. Your continued use of the Site following the posting of any changes constitutes
+                acceptance of those changes.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+              <p class="mb-4">If you have any questions about these terms and conditions, please contact us at
+                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                  class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+            </div>
+
+            <div class="flex justify-center mt-8">
+              <div class="p-2">
+                <button
+                  class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                  onclick="document.getElementById('terms').style.display='none'">Close</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+      </div>
+    </div>
+
+    <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="refund">
+      <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+        <section class="text-black body-font relative">
+          <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 class="text-3xl font-bold mb-4">REFUND POLICY</h1>
+
+            </div>
+
+            <div class="w-full lg:w-2/3 mx-auto text-left">
+              <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+              <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+              <br>
+              <p class="mb-4">Thank you for choosing ecodibba.com for your B2B e-commerce and customized packaging
+                needs. This Refund Policy outlines the terms and conditions related to the refund of products ordered
+                through our website (<a href="http://www.ecodibba.com"
+                  class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+              <h2 class="text-2xl font-semibold mb-2">1. Refund Eligibility</h2>
+              <p class="mb-4">Refunds are only applicable to products purchased directly through our Site. Customized or
+                made-to-order items are not eligible for refunds, as they are tailored to the customer's specifications.
+              </p>
+
+              <h2 class="text-2xl font-semibold mb-2">2. Initiation of Refunds</h2>
+              <p class="mb-4">To initiate a refund, please contact our customer support team at <a
+                  href="mailto:contact@ecodibba.com" class="text-blue-500 underline">contact@ecodibba.com</a> within 24
+                hours of receiving the product. The product must be unused, in its original packaging, and in the same
+                condition as when it was received.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">3. Refund Process</h2>
+              <p class="mb-4">Once your request is received and approved, we will provide instructions for returning the
+                product. After the product is received and inspected, we will notify you of the approval or rejection of
+                your refund. If approved, the refund will be processed, and a credit will be applied to your original
+                method of payment within 10 business days.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">4. Shipping Costs</h2>
+              <p class="mb-4">Shipping costs are non-refundable unless the return is a result of our error (e.g., you
+                received an incorrect or defective item).</p>
+
+              <h2 class="text-2xl font-semibold mb-2">5. Damaged or Defective Items</h2>
+              <p class="mb-4">If you receive a damaged or defective item, please contact us immediately. We may require
+                photographic evidence of the damage or defect before initiating the refund process.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">6. Cancellations</h2>
+              <p class="mb-4">Customized or made-to-order items cannot be canceled once the production process has
+                begun. For other products, cancellation requests must be submitted within 24 hours of order placement.
+              </p>
+
+              <h2 class="text-2xl font-semibold mb-2">7. Changes to Refund Policy</h2>
+              <p class="mb-4">We reserve the right to update, change, or replace any part of this refund policy at our
+                discretion. Your continued use of the Site following the posting of any changes constitutes acceptance
+                of those changes.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">8. Contact Us</h2>
+              <p class="mb-4">If you have any questions about this refund policy, please contact us at <a
+                  href="mailto:contact@ecodibba.com" class="text-blue-500 underline">contact@ecodibba.com</a> or
+                +91-9654-327-527.</p>
+            </div>
+
+            <div class="flex justify-center mt-8">
+              <div class="p-2">
+                <button
+                  class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                  onclick="document.getElementById('refund').style.display='none'">Close</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+      </div>
+    </div>
+    <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="shipping">
+      <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+        <section class="text-black body-font relative">
+          <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 class="text-3xl font-bold mb-4">Shipping Policy</h1>
+
+            </div>
+
+            <div class="w-full lg:w-2/3 mx-auto text-left">
+              <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+              <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+              <br>
+              <p class="mb-4">Thank you for choosing ecodibba.com for your B2B / B2C e-commerce and customized packaging
+                needs. This Shipping Policy outlines the terms and conditions related to the shipping of products
+                ordered through our website (<a href="http://www.ecodibba.com"
+                  class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+              <h2 class="text-2xl font-semibold mb-2">1. Order Processing Time</h2>
+              <p class="mb-4">Orders are processed within five business days from the date of order (order date refers
+                to the date of advance or complete payment). Customized or made-to-order items may require additional
+                processing time, and specific timelines will be communicated upon order confirmation.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">2. Shipping Rates and Methods</h2>
+              <p class="mb-4">Shipping rates are calculated based on the weight, dimensions, and destination of the
+                package. We offer various shipping methods, including standard and expedited options. The available
+                options will be presented during the checkout or order placement process.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">3. Shipping Destinations</h2>
+              <p class="mb-4">We currently ship to Pan India locations. For international orders, please note that
+                customs duties and taxes may apply and are the responsibility of the recipient.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">4. Order Tracking</h2>
+              <p class="mb-4">Once your order is shipped, you will receive a confirmation email with a tracking number.
+                You can track your order through our website or the carrier's website.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">5. Estimated Delivery Times</h2>
+              <p class="mb-4">Estimated delivery times are provided during the checkout process and are based on the
+                shipping method selected. Please note that delivery times are estimates and may vary due to factors
+                beyond our control, such as customs processing or carrier delays.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">6. Order Delays</h2>
+              <p class="mb-4">We strive to meet our estimated delivery times, but delays may occur. If your order is
+                significantly delayed, we will notify you and work to resolve the issue promptly.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">7. Shipping Address</h2>
+              <p class="mb-4">It is the responsibility of the customer to provide an accurate shipping address during
+                the checkout process. Any additional charges incurred due to an incorrect address will be the
+                responsibility of the customer.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">8. Lost or Damaged Items</h2>
+              <p class="mb-4">In the rare event that your order is lost or damaged during transit, please contact us
+                immediately. We will work with the carrier to initiate an investigation and provide a resolution.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">9. Returns and Exchanges</h2>
+              <p class="mb-4">Please refer to our Returns and Exchanges Policy for information on returning or
+                exchanging products.</p>
+
+              <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+              <p class="mb-4">If you have any questions or concerns regarding our shipping policy, please contact us at
+                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                  class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+            </div>
+
+            <div class="flex justify-center mt-8">
+              <div class="p-2">
+                <button
+                  class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                  onclick="document.getElementById('shipping').style.display='none'">Close</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+      </div>
+    </div>
+
+    <hr>
+    <footer class="body-font">
+        <section class="bg-green-500 h-8 overflow-hidden w-full flex items-center">
+            <div class="scrolling-text">
+                <span>Thank You!! For visiting ec0dibba</span>
+                
+            </div>
+        </section>
+        <div
+            class="container px-5 pb-24 pt-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col footer justify-between ">
+            <div
+                class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first justify-between w-full">
+                <!-- First Column -->
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 lg:ml-20">
+                    <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li class="mb-2">
+                            <a href="categories.html?cat=bcb" class="text-gray-800 hover:text-green-500">Brown
+                                Corrugated
+                                Box</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="categories.html?cat=wcb" class="text-gray-800 hover:text-green-500">White
+                                Corrugated
+                                Box</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="categories.html?cat=pbox" class="text-gray-800 hover:text-green-500">Paper
+                                Boxes</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="categories.html?cat=pbag" class="text-gray-800 hover:text-green-500">Paper Bag</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="categories.html" class="text-gray-800 hover:text-green-500">Show more</a>
+                        </li>
+                    </nav>
+                </div>
+                <!-- Second Column (hidden) -->
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="display: none;">
+                    <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">My Account</h2>
+                    <nav class="list-none mb-10">
+                        <li class="mb-2">
+                            <a href="#" class="text-gray-800 hover:text-green-500">Login / Signup</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-gray-800 hover:text-green-500">My Profile</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-gray-800 hover:text-green-500">Orders</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-gray-800 hover:text-green-500">Address Book</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-gray-800 hover:text-green-500">Track Order</a>
+                        </li>
+                    </nav>
+                </div>
+                <!-- Third Column -->
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Company</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-800 hover:text-green-500" href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-800 hover:text-green-500" href="payments.html">Payments</a>
+                        </li>
+                        <li onclick="document.getElementById('privacy').style.display='block'">
+                            <a class="text-gray-800 hover:text-green-500">Privacy Policy</a>
+                        </li>
+                        <li onclick="document.getElementById('terms').style.display='block'">
+                            <a class="text-gray-800 hover:text-green-500">Terms and Conditions</a>
+                        </li>
+                        <li onclick="document.getElementById('refund').style.display='block'">
+                            <a class="text-gray-800 hover:text-green-500">Refund Policy</a>
+                        </li>
+                        <li onclick="document.getElementById('shipping').style.display='block'">
+                            <a class="text-gray-800 hover:text-green-500">Shipping Policy</a>
+                        </li>
+                    </nav>
+                </div>
+                <!-- Fourth Column -->
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Contact</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-800 hover:text-green-500">+91-9654-327-527</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-800 hover:text-green-500">contact@ecodibba.com</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-800 hover:text-green-500">ecodibba, Janakpuri, New Delhi, Delhi, India -
+                                110058</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col footer justify-between -my-20 "
+            style="width: 88vw;">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-green-500"
+                id="f-logo">
+                <img loading="lazy" src="assets/logo.png" width="120px" alt="Ecodibba Logo">
+            </a>
+            <p class="text-sm text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+                id="f-link">
+                © Copyright ecodibba 2024.
+                All Rights Reserved. Made with <a class="text-gray-500 ml-1" rel="noopener noreferrer"
+                    target="_blank">❤️ </a>in India.
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" id="fs-link">
+                <a class="text-green-500" href="https://www.facebook.com/ecodibba" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-green-500" href="https://www.instagram.com/ecodibba/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-green-500" href="https://www.linkedin.com/company/ecodibba/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8.64h4.55v14.72H.22V8.64zM7.91 8.64h4.36v2.03h.06c.61-1.14 2.1-2.34 4.32-2.34 4.62 0 5.48 3.04 5.48 6.98v8.05h-4.75v-7.14c0-1.7-.03-3.89-2.37-3.89-2.38 0-2.75 1.85-2.75 3.77v7.27h-4.75V8.64z" />
+                    </svg>
+                </a>
+
+                <a class="ml-3 text-green-500" href="https://www.youtube.com/@ecodibba" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M23.498 6.186a2.99 2.99 0 00-2.11-2.118C19.665 3.5 12 3.5 12 3.5s-7.665 0-9.388.568a2.99 2.99 0 00-2.11 2.118C0 8.088 0 12 0 12s0 3.912.502 5.814a2.99 2.99 0 002.11 2.118C4.335 20.5 12 20.5 12 20.5s7.665 0 9.388-.568a2.99 2.99 0 002.11-2.118C24 15.912 24 12 24 12s0-3.912-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+                    </svg>
+                </a>
+
+
+            </span>
+        </div>
+    </footer>
+
+
+
+
+    <!---->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script>
+
+      function toggle() {
+
+        if (document.getElementById('side-menu').style.transform == "translateX(-100%)") {
+          document.getElementById('side-menu').style.transform = "translateX(0%)";
+        }
+        else {
+          document.getElementById('side-menu').style.transform = "translateX(-100%)";
+        }
+
+      }
+      document.getElementById('side-menu').style.transform = "translateX(-100%)";
+
+      const mainImage = document.getElementById('mainImage');
+      const zoomContainer = document.getElementById('zoomContainer');
+
+      mainImage.addEventListener('mousemove', function (e) {
+        const imageRect = mainImage.getBoundingClientRect();
+        const zoomSize = 250;
+
+        // Calculate position of the zoom box
+        const x = e.clientX - imageRect.left;
+        const y = e.clientY - imageRect.top;
+
+        const xPercent = (x / imageRect.width) * 100;
+        const yPercent = (y / imageRect.height) * 100;
+
+        zoomContainer.style.backgroundImage = `url(${mainImage.src})`;
+        zoomContainer.style.backgroundSize = `${imageRect.width * 2}px ${imageRect.height * 2}px`;
+        zoomContainer.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+        zoomContainer.style.width = `${zoomSize}px`;
+        zoomContainer.style.height = `${zoomSize}px`;
+        zoomContainer.style.border = '2px solid white';
+        zoomContainer.style.position = 'absolute';
+        zoomContainer.style.top = `${y - zoomSize / 2}px`;
+        zoomContainer.style.left = `${x - zoomSize / 2}px`;
+        zoomContainer.style.pointerEvents = 'none';
+      });
+
+      mainImage.addEventListener('mouseleave', function () {
+        zoomContainer.style.display = 'none';
+      });
+
+      mainImage.addEventListener('mouseenter', function () {
+        zoomContainer.style.display = 'block';
+      });
+
+      document.querySelectorAll('.flex > img').forEach(img => {
+        img.addEventListener('click', (e) => {
+          document.getElementById('mainImage').src = e.target.src;
+        });
+      });
+
+      const filePath = 'Gallery Data.xlsx'; // Replace with actual file path
+      let name = "", category = "", description = "", colour = "", specification = "";
+      let img1 = "", img2 = "", img3 = "", img4 = "", img5 = "", img6 = "";
+
+      // Get query parameter 'data' from the URL
+      const params = new URLSearchParams(window.location.search);
+      const d = params.get("id"); // The row number you want to fetch
+
+      if (d) {
+        console.log("Data from Page 1:", d, typeof (d));
+      }
+
+      window.onload = function () {
+        fetch(filePath)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Failed to fetch the Excel file');
+            }
+            return response.arrayBuffer(); // Read the file as ArrayBuffer
+          })
+          .then(data => {
+            // Open the workbook using SheetJS
+            const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
+
+            // Get the first sheet name (assuming your data is in the first sheet)
+            const firstSheetName = workbook.SheetNames[0];
+
+            // Get the worksheet from the workbook
+            const worksheet = workbook.Sheets[firstSheetName];
+
+            // Get all rows from the Excel sheet as a JSON array
+            const allRows = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+
+            // Convert 'd' from string to number to access the correct row
+            const rowIndex = parseInt(d);
+
+            if (!allRows[rowIndex]) {
+              console.error('Row data not found for the provided "data" parameter:', d);
+              return;
+            }
+
+            const rowData = allRows[rowIndex];
+            console.log(rowData);
+
+            // Check if the expected data exists in the row
+            if (rowData.length < 22) {
+              console.error('Row data is incomplete or missing required columns.');
+              return;
+            }
+
+            // Populate variables with the row data (assuming the structure you described)
+            name = rowData[1];           // Column B (Name)
+            specification = rowData[5];       // Column C (Category)
+            description = rowData[3];    // Column D (Description)
+            colour = rowData[4];         // Column E (Colour)
+            category = rowData[25];
+
+            if (category == "") {
+              category = rowData[26];
+            }  // Column F (Specification)
+            img1 = rowData[19];          // Column S (Image1)
+            img2 = rowData[20];          // Column T (Image2)
+            img3 = rowData[21];          // Column U (Image3)
+            img4 = rowData[22];          // Column V (Image4)
+            img5 = rowData[23];
+            img6 = rowData[24];
+
+            console.log(rowData);
+            console.log(name, category, description, colour, specification, img1, img2, img3, img4);
+            const path = "Gallery Photos" + '\\' + rowData[0] + "\\";
+            // Update the webpage with the fetched data
+            document.getElementById('mainImage').src = path + img1;
+            document.getElementById('img1').src = path + img1;
+            if (img2 != "") {
+              document.getElementById('img2').src = path + img2;
+            }
+            else {
+              document.getElementById('img2').style.display = 'none';
+            }
+
+            if (img3 != "") {
+              document.getElementById('img3').src = path + img3;
+            }
+            else {
+              document.getElementById('img3').style.display = 'none';
+            }
+
+            if (img4 != "") {
+              document.getElementById('img4').src = path + img4;
+            }
+            else {
+              document.getElementById('img4').style.display = 'none';
+            }
+
+            if (img5 != "") {
+              document.getElementById('img5').src = path + img5;
+            }
+            else {
+              document.getElementById('img5').style.display = 'none';
+            }
+
+            if (img6 != "") {
+              document.getElementById('img6').src = path + img6;
+            }
+            else {
+              document.getElementById('img6').style.display = 'none';
+            }
+
+            document.getElementById('name').innerHTML = name;
+            document.getElementById('description').innerHTML = description;
+            document.getElementById('colour').innerHTML = `Colour: ${colour}`;
+            document.getElementById('specification').innerHTML = `Specification: ${specification}`;
+            document.getElementById('category').innerHTML = `Category: ${category}`;
+
+            // Add click event to update main image on thumbnail click
+            const thumbnails = document.querySelectorAll(".thumbnails img");
+            thumbnails.forEach(thumb => {
+              thumb.addEventListener("click", function () {
+                document.getElementById('mainImage').src = this.src;
+              });
+            });
+          })
+          .catch(error => {
+            console.error('Error reading Excel file:', error);
+          });
+      };
+
+
+    </script>
+
+
+
+</body>
+
+</html>

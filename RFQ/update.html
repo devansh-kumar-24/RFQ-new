@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecodibba Quote Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/9.2.4/swiper-bundle.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #111827;
+    }
+    header {
+      background-color: #00111f;
+      color: white;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .header-nav a {
+      color: #9ca3af;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .header-nav a:hover {
+      color: white;
+    }
+    button {
+      background-color: #00ff7b;
+      color: #00111f;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00cc62;
+    }
+    .form-section {
+      margin-bottom: 2rem;
+    }
+    .form-section h3 {
+      margin-bottom: 1rem;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #00111f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="/" style="display: flex; align-items: center;">
+        <img src="/placeholder.svg?height=40&width=40" alt="ecodibba logo" style="height: 40px; width: 40px; margin-right: 0.5rem;">
+        <span style="font-size: 1.5rem;"><span style="color: #00ff7b;">eco</span>dibba</span>
+      </a>
+      <nav class="header-nav">
+        <a href="/">Home</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/rfq">Request Quote</a>
+        <a href="/categories">Categories</a>
+        <a href="/payments">Payments</a>
+        <a href="/about">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="form-section">
+      <h3>Select Box Type</h3>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/placeholder.svg?height=200&width=300" alt="Brown Corrugated Box" />
+            <p>Brown Corrugated Box</p>
+            <button>Select</button>
+          </div>
+          <div class="swiper-slide">
+            <img src="/placeholder.svg?height=200&width=300" alt="White Corrugated Box" />
+            <p>White Corrugated Box</p>
+            <button>Select</button>
+          </div>
+          <div class="swiper-slide">
+            <img src="/placeholder.svg?height=200&width=300" alt="Paper Box" />
+            <p>Paper Box</p>
+            <button>Select</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h3>Box Specifications</h3>
+      <input type="number" placeholder="Length (inches)" />
+      <input type="number" placeholder="Width (inches)" />
+      <input type="number" placeholder="Height (inches)" />
+      <select>
+        <option value="">Select Material Type</option>
+        <option value="corrugated">Corrugated</option>
+        <option value="cardboard">Cardboard</option>
+        <option value="rigid">Rigid</option>
+      </select>
+    </div>
+
+    <div class="form-section">
+      <h3>Printing Options</h3>
+      <select>
+        <option value="">Select number of colors</option>
+        <option value="1">1 Color</option>
+        <option value="2">2 Colors</option>
+        <option value="full">Full Color</option>
+      </select>
+      <input type="file" accept="image/*" />
+      <textarea placeholder="Special printing instructions"></textarea>
+    </div>
+
+    <div class="form-section">
+      <h3>Order Details</h3>
+      <input type="number" placeholder="Quantity" />
+      <input type="number" placeholder="Budget" />
+      <select>
+        <option value="">Delivery Timeline</option>
+        <option value="standard">Standard (7-10 days)</option>
+        <option value="express">Express (3-5 days)</option>
+        <option value="rush">Rush (1-2 days)</option>
+      </select>
+      <select>
+        <option value="">Sourcing Purpose</option>
+        <option value="personal">Personal</option>
+        <option value="business">Business</option>
+      </select>
+    </div>
+
+    <div class="form-section">
+      <h3>Contact Details</h3>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <input type="tel" placeholder="Phone Number" />
+      <input type="tel" placeholder="Alt. Phone Number" />
+    </div>
+
+    <div class="form-section">
+      <h3>Billing Details</h3>
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Pin code" />
+      <input type="text" placeholder="State" />
+      <input type="text" placeholder="City" />
+      <textarea placeholder="Billing Address"></textarea>
+    </div>
+
+    <div class="form-section">
+      <h3>Shipping Details</h3>
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Pin code" />
+      <input type="tel" placeholder="Phone No." />
+      <input type="text" placeholder="State" />
+      <textarea placeholder="Shipping Address"></textarea>
+    </div>
+
+    <div class="form-section">
+      <button>Previous</button>
+      <button>Next</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 ecodibba. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/9.2.4/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      spaceBetween: 30,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        clickable: true,
+      },
+      navigation: true,
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+      }
+    });
+  </script>
+
+</body>
+</html>

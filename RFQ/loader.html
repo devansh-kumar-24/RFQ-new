@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Page with Progress</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+  <!-- Loader Container -->
+  <div id="loader" class="flex flex-col items-center justify-center">
+    <!-- Heading -->
+    <h1 class="text-5xl mb-10 font-extrabold">Request Your Custom Packaging Quote in Minutes!</h1>
+    <!-- GIF Image -->
+    <img src="assets/loader/3dgifmaker94036.gif" alt="Loading..." class="w-30 h-30">
+    <!-- Loading Text -->
+    <p class="mt-4 text-gray-700 text-lg font-medium">Loading, please wait...</p>
+    <!-- Progress Bar -->
+    <div class="w-64 h-2 bg-gray-300 rounded-full mt-4">
+      <div id="progress-bar" class="h-2 bg-[#026C29] rounded-full" style="width: 0%;"></div>
+    </div>
+    <!-- Changing Messages Below Progress Bar -->
+    <p id="status-message" class="mt-4 text-gray-600 text-sm font-medium">Initializing modules...</p>
+  </div>
+
+  <!-- Main Content (Hidden Initially) -->
+  <div id="content" class="hidden">
+    <!-- Replace this with your main content -->
+    <h1 class="text-3xl font-bold text-gray-800">Welcome to the Main Content!</h1>
+  </div>
+
+  <!-- JavaScript to Animate Progress and Hide Loader -->
+  <script>
+    // Total loading time in milliseconds
+    const loadingTime = 3000; // 3 seconds
+    const progressBar = document.getElementById("progress-bar");
+    const statusMessage = document.getElementById("status-message");
+
+    // Array of messages to display at different progress stages
+    const messages = [
+      "Initializing modules...",
+      "Fetching data...",
+      "Finalizing setup..."
+    ];
+
+    // Increment the width of the progress bar over time
+    let progress = 0;
+    const interval = setInterval(() => {
+      progress += 1;
+      progressBar.style.width = `${progress}%`;
+
+      // Update messages at specific progress points
+      if (progress === 0) {
+        statusMessage.textContent = messages[0];
+      } else if (progress === 30) {
+        statusMessage.textContent = messages[1];
+      } else if (progress === 60) {
+        statusMessage.textContent = messages[2];
+      }
+
+      // Stop incrementing when progress reaches 100%
+      if (progress >= 100) {
+        clearInterval(interval);
+      }
+    }, loadingTime / 100);
+
+    // Show content after all assets are fully loaded
+    window.addEventListener('load', () => {
+      document.getElementById("loader").classList.add("hidden");
+      document.getElementById("content").classList.remove("hidden");
+      document.getElementById('loader-div').classList.add('hidden')
+    });
+  </script>
+</body>
+</html>

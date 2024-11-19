@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="public">
+    <title>Explore Our Secure Payment Methods | ecodibba</title>
+    <meta name="description" content="Learn about Ecodibba's secure payment options for your eco-friendly packaging orders. Enjoy flexible payment methods designed for your convenience and peace of mind.">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <section class="text-gray-400 bg-gray-900 body-font  " id="side-menu">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <nav style="display:flex;flex-direction:column;text-align:left;">
+                    <a class="mr-5 hover:text-green-500 side-links"
+                        onclick="window.location.href = 'index.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'gallery.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="document.getElementById('side-menu').style.transform = 'translateX(-100%)';window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+                        for Quotation</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'categories.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'payments.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="document.getElementById('menu').scrollIntoView();document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';"
+                        style="display: none;">Products</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'about.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+                        Us</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'blogs.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+                </nav>
+            </div>
+    </section>
+
+    <header class="bg-white-900 text-green-500 body-font mx-auto" style="z-index: 700;width:85vw;font-size:x-large;">
+        <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+            <!-- Logo aligned to the left -->
+            <a class="flex title-font font-medium text-gray-900" href="https://ecodibba.com/">
+
+                <img src="assets/logo.png" alt="logo" class="h-12">
+
+
+            </a>
+            
+
+            <!-- Toggle button for mobile -->
+            <button
+                class="md:hidden inline-flex items-center bg-white text-base border-0 py-1 px-3 focus:outline-none  rounded "
+                onclick="toggle()">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <!-- Navigation links aligned to the right -->
+            <nav id="nav-links" class="hidden md:flex flex-wrap items-center text-base justify-end space-x-6 text-xl"
+                id="links">
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'index.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'gallery.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+                    for Quotation</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'categories.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'payments.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'about.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+                    Us</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'blogs.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+            </nav>
+
+        </div>
+        <!-- Mobile Menu -->
+
+    </header>
+    <hr>
+
+
+    <div class="fixed bottom-0 right-0 mb-20 mr-4 bg-gray-800 text-white p-4 rounded flex items-center space-x-2"
+        style="border-radius: 20px 20px 0px 20px;z-index:501;">
+        <a href="https://wa.me/9654327527" target="_blank" class="flex items-center space-x-2">
+            <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+            <span class="text-sm">Chat with us!</span>
+        </a>
+    </div>
+    <div class=" paralax">
+
+
+        <section class="relative text-gray-400 bg-gray-900 body-font" id="shareableContent">
+
+            <div class="container mx-auto py-5 flex justify-center relative z-10">
+                <div class="w-11/12 md:w-3/5 lg:w-1/3 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col items-center">
+                    <h2 class="text-white text-lg mb-1 font-medium title-font text-center">ecodibba Payment Details</h2>
+                    <br>
+                    <div class="flex justify-center items-center text-white leading-relaxed text-center">
+                        <p class="text-white leading-relaxed">Scan and Pay using any</p>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            style="width: 10%; background-color:#fff; margin-left:1%;border-radius:5px;"
+                            viewBox="0 0 333334 199007" shape-rendering="geometricPrecision"
+                            text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M44732 130924h1856l-1738 7215c-265 1061-206 1885 147 2415 354 530 1001 795 1973 795 942 0 1737-265 2356-795 618-531 1031-1355 1296-2415l1737-7215h1885l-1767 7392c-383 1590-1060 2798-2061 3593-972 795-2268 1208-3858 1208s-2680-383-3269-1179c-589-795-707-2002-324-3592l1767-7421zm223507 11868l2826-11868h6449l-383 1649h-4564l-706 2974h4564l-413 1679h-4564l-913 3827h4565l-412 1738h-6449zm-177-8982c-413-470-913-824-1443-1031-531-235-1119-353-1797-353-1266 0-2385 412-3386 1237s-1649 1915-1973 3239c-295 1267-177 2327 413 3181 559 824 1442 1237 2620 1237 677 0 1355-118 2031-383 678-235 1356-619 2062-1119l-530 2179c-589 382-1207 648-1856 825-648 176-1296 265-2002 265-883 0-1679-148-2356-443-678-294-1236-736-1679-1324-441-560-706-1237-824-2002-117-766-88-1590 148-2474 206-883 559-1680 1031-2445 471-766 1089-1443 1796-2002 706-589 1472-1030 2297-1325 824-294 1648-441 2503-441 677 0 1295 88 1885 294 559 207 1089 500 1560 913l-500 1972zm-18317 4300h3209l-530-2710c-29-176-59-383-59-589-30-235-30-471-30-736-118 265-235 500-383 736-118 235-235 442-353 619l-1855 2680zm4093 4682l-589-3062h-4594l-2062 3062h-1972l8539-12338 2650 12338h-1972zm-15548 0l2827-11868h6449l-383 1649h-4565l-706 2945h4563l-412 1679h-4564l-1325 5565h-1885v30zm-5566-6832h353c1001 0 1679-118 2062-354 382-236 648-648 795-1267 146-648 88-1119-207-1384-293-265-913-413-1855-413h-354l-795 3417zm-471 1502l-1267 5300h-1767l2828-11867h2621c766 0 1354 59 1737 148 411 89 736 265 971 500 295 295 471 648 559 1119 89 443 59 943-59 1502-235 943-619 1709-1207 2238-589 530-1326 854-2209 972l2680 5387h-2121l-2562-5300h-206zm-11632 5330l2828-11868h6478l-382 1649h-4565l-706 2974h4564l-411 1679h-4565l-912 3827h4564l-413 1738h-6479zm-2031-10248l-2444 10218h-1884l2444-10218h-3063l383-1649h8010l-382 1649h-3063zm-19170 10248l2945-12338 5595 7244c148 206 294 413 441 648s295 501 471 794l1974-8216h1737l-2945 12310-5713-7392c-147-206-295-412-441-619-147-235-265-442-354-707l-1972 8245h-1737v30zm-4594 0l2827-11868h1884l-2827 11868h-1884zm-13870-2385l1678-707c29 530 176 942 501 1207 324 265 765 413 1354 413 559 0 1031-148 1443-471 412-324 678-736 795-1266 177-707-235-1326-1236-1855-147-89-235-148-325-177-1119-648-1825-1207-2120-1737-294-530-354-1149-176-1884 235-972 736-1738 1530-2356 796-589 1679-913 2740-913 854 0 1530 177 2031 500 501 325 766 825 854 1444l-1648 766c-148-383-325-648-560-825-235-176-530-265-884-265-501 0-942 147-1295 412-354 265-589 619-707 1090-176 707 325 1383 1472 2002 89 59 147 89 207 117 1001 530 1678 1061 1972 1591 295 529 354 1148 178 1943-266 1119-825 2002-1680 2680-853 647-1855 1002-3033 1002-971 0-1737-237-2267-708-589-471-854-1149-824-2002zm-1973-7863l-2444 10218h-1884l2444-10218h-3062l381-1649h8010l-383 1649h-3062zm-19170 10248l2944-12338 5596 7244c147 206 295 413 442 648 146 235 294 501 471 794l1973-8216h1737l-2944 12310-5713-7392c-148-206-294-412-442-619-147-235-265-442-353-707l-1973 8245h-1737v30zm-8599 0l2827-11868h6449l-383 1649h-4564l-707 2974h4564l-412 1679h-4564l-913 3827h4565l-413 1738h-6449zm-3121-5860c0-88 29-354 88-766 30-353 59-618 89-854-118 266-236 530-383 824-147 266-324 560-530 825l-4535 6331-1472-6448c-59-265-118-530-148-766-29-235-59-500-59-736-59 236-147 500-235 794-89 266-206 560-354 855l-2650 5831h-1737l5683-12368 1620 7479c29 118 59 324 89 589 29 266 88 619 147 1031 206-353 471-765 825-1296 88-146 176-235 206-324l5124-7479-177 12368h-1737l148-5890zm-17933 5860l1296-5418-2356-6420h1972l1472 4035c30 117 59 235 118 411 59 178 89 354 147 530 118-176 236-353 354-530 118-176 236-324 353-471l3446-3975h1884l-5506 6390-1296 5417h-1885v30zm-8746-4682h3209l-530-2710c-30-176-59-383-59-589-30-235-30-471-30-736-118 265-236 500-383 736-118 235-235 442-354 619l-1855 2680zm4063 4682l-589-3062h-4594l-2061 3062h-1973l8540-12338 2650 12338h-1973zm-11808-6920h471c1031 0 1767-118 2179-354 412-235 677-647 825-1237 146-618 58-1089-236-1324-324-265-972-383-1943-383h-471l-825 3299zm-501 1590l-1266 5330h-1767l2827-11868h2856c854 0 1443 59 1826 147s678 236 913 471c294 265 500 648 589 1119 88 472 59 972-59 1531-147 560-353 1090-677 1561s-707 854-1119 1119c-353 206-736 382-1148 471-412 88-1060 148-1885 148h-1089v-30zm-17580 3563h1590c854 0 1531-59 2003-176 471-117 883-324 1266-589 530-383 972-854 1325-1443 354-560 619-1237 795-2002 176-766 235-1414 147-1972-88-561-294-1061-648-1444-265-294-589-471-1030-589-442-118-1119-176-2091-176h-1354l-2003 8392zm-2297 1767l2828-11868h2532c1649 0 2798 88 3415 265 619 177 1148 442 1561 854 530 530 884 1208 1031 2002 147 825 88 1767-147 2798-266 1060-648 1972-1178 2796-530 825-1207 1473-2002 2003-589 413-1237 678-1944 854-677 177-1708 265-3063 265h-3033v30zm-8628 0l2827-11868h6449l-383 1649h-4565l-707 2974h4565l-412 1679h-4565l-913 3827h4565l-412 1738h-6449zm-4565 0l2827-11868h1884l-2827 11868h-1885zm-8540 0l2827-11868h6449l-383 1649h-4564l-707 2945h4564l-412 1679h-4565l-1325 5565h-1885v30zm-4565 0l2827-11868h1884l-2827 11868h-1885zm-13015 0l2944-12338 5595 7244c147 206 294 413 442 648 147 235 294 501 471 794l1973-8216h1737l-2944 12310-5713-7392c-147-206-294-412-442-619-147-235-265-442-353-707l-1973 8245h-1737v30z"
+                                fill="#3a3734" />
+                            <path
+                                d="M233961 120588h-12927l17963-64873h12927l-17963 64873zm-107424-4064c-707 2562-3063 4358-5713 4358H54185c-1826 0-3180-619-4064-1855-883-1238-1089-2769-559-4594l16255-58541h12928l-14518 52298h51710l14517-52298h12928l-16844 60632zm100710-58777c-883-1237-2268-1855-4152-1855h-71027l-3504 12721h64608l-3769 13576h-51680v-30h-12927l-10719 38724h12927l7185-25973h58100c1826 0 3534-619 5124-1855 1590-1237 2651-2768 3151-4594l7185-25972c559-1943 383-3504-501-4741z"
+                                fill="#716d6a" />
+                            <path fill="#0e8635"
+                                d="M274245 55833l16344 32510-34365 32510 4087-14747 18794-17763-8941-17785z" />
+                            <path fill="#e97208" d="M262762 55833l16343 32510-34395 32510z" />
+                            <path
+                                d="M31367 0h270601c8631 0 16474 3528 22156 9210 5683 5683 9211 13526 9211 22156v136275c0 8629-3529 16472-9211 22155-5683 5682-13526 9211-22155 9211H31368c-8629 0-16473-3528-22156-9211C3530 184114 2 176272 2 167641V31366c0-8631 3528-16474 9210-22156S22738 0 31369 0zm270601 10811H31367c-5647 0-10785 2315-14513 6043s-6043 8866-6043 14513v136275c0 5646 2315 10784 6043 14512 3729 3729 8867 6044 14513 6044h270601c5645 0 10783-2315 14512-6044 3728-3729 6044-8867 6044-14511V31368c0-5645-2315-10784-6043-14513-3728-3728-8867-6043-14513-6043z"
+                                fill="gray" fill-rule="nonzero" />
+                        </svg>
+                    </div>
+
+                    <br>
+                    <div class="flex items-center  justify-center">
+                        <img src="assets/qrm.jpg" alt="UPI QR Code" class="h-auto" style="max-width: 50%;">
+                    </div>
+                    <p class="text-white leading-relaxed mb-10 text-center">ecodibba@kotak</p>
+
+                    <div class="flex items-center mb-4 justify-center">
+                        <h3 class="text-white text-lg mr-4 text-center">Bank Transfer Details</h3>
+                    </div>
+
+                    <div class="text-center mb-4">
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-400"><strong>Bank Name: &nbsp; </strong> Kotak Mahindra Bank</p>
+                            <button onclick="copyToClipboard('Kotak Mahindra Bank', this)"
+                                class="flex items-center text-gray-400 ml-2 focus:outline-none">
+                                <!-- SVG Icon -->
+                                <svg viewBox="0 0 1024 1024" class="icon" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" fill="#03c200" stroke="#03c200" width="24"
+                                    height="24">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M589.3 260.9v30H371.4v-30H268.9v513h117.2v-304l109.7-99.1h202.1V260.9z"
+                                            fill="#ebebeb"></path>
+                                        <path d="M516.1 371.1l-122.9 99.8v346.8h370.4V371.1z" fill="#ebebeb"></path>
+                                        <path d="M752.7 370.8h21.8v435.8h-21.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h277.3v21.8H495.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h21.8v124.3h-21.8z" fill="#00942c"></path>
+                                        <path d="M397.7 488.7l-15.4-15.4 113.5-102.5 15.4 15.4z" fill="#00942c"></path>
+                                        <path d="M382.3 473.3h135.3v21.8H382.3z" fill="#00942c"></path>
+                                        <path d="M382.3 479.7h21.8v348.6h-21.8zM404.1 806.6h370.4v21.8H404.1z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M447.7 545.1h261.5v21.8H447.7zM447.7 610.5h261.5v21.8H447.7zM447.7 675.8h261.5v21.8H447.7z"
+                                            fill="#a3a3a3"></path>
+                                        <path d="M251.6 763h130.7v21.8H251.6z" fill="#00942c"></path>
+                                        <path
+                                            d="M251.6 240.1h21.8v544.7h-21.8zM687.3 240.1h21.8v130.7h-21.8zM273.4 240.1h108.9v21.8H273.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M578.4 240.1h130.7v21.8H578.4zM360.5 196.5h21.8v108.9h-21.8zM382.3 283.7h196.1v21.8H382.3zM534.8 196.5h65.4v21.8h-65.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M360.5 196.5h65.4v21.8h-65.4zM404.1 174.7h152.5v21.8H404.1zM578.4 196.5h21.8v108.9h-21.8z"
+                                            fill="#00942c"></path>
+                                    </g>
+                                </svg>
+                                <!-- Copy Text -->
+                                <span class="ml-2" style="scale: 0.8;">Copy!</span>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-400"><strong>Account No.: &nbsp;</strong>1314231715</p>
+                            <button onclick="copyToClipboard('1314231715', this)"
+                                class="flex items-center text-gray-400 ml-2 focus:outline-none">
+                                <!-- SVG Icon -->
+                                <svg viewBox="0 0 1024 1024" class="icon" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" fill="#03c200" stroke="#03c200" width="24"
+                                    height="24">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M589.3 260.9v30H371.4v-30H268.9v513h117.2v-304l109.7-99.1h202.1V260.9z"
+                                            fill="#ebebeb"></path>
+                                        <path d="M516.1 371.1l-122.9 99.8v346.8h370.4V371.1z" fill="#ebebeb"></path>
+                                        <path d="M752.7 370.8h21.8v435.8h-21.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h277.3v21.8H495.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h21.8v124.3h-21.8z" fill="#00942c"></path>
+                                        <path d="M397.7 488.7l-15.4-15.4 113.5-102.5 15.4 15.4z" fill="#00942c"></path>
+                                        <path d="M382.3 473.3h135.3v21.8H382.3z" fill="#00942c"></path>
+                                        <path d="M382.3 479.7h21.8v348.6h-21.8zM404.1 806.6h370.4v21.8H404.1z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M447.7 545.1h261.5v21.8H447.7zM447.7 610.5h261.5v21.8H447.7zM447.7 675.8h261.5v21.8H447.7z"
+                                            fill="#a3a3a3"></path>
+                                        <path d="M251.6 763h130.7v21.8H251.6z" fill="#00942c"></path>
+                                        <path
+                                            d="M251.6 240.1h21.8v544.7h-21.8zM687.3 240.1h21.8v130.7h-21.8zM273.4 240.1h108.9v21.8H273.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M578.4 240.1h130.7v21.8H578.4zM360.5 196.5h21.8v108.9h-21.8zM382.3 283.7h196.1v21.8H382.3zM534.8 196.5h65.4v21.8h-65.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M360.5 196.5h65.4v21.8h-65.4zM404.1 174.7h152.5v21.8H404.1zM578.4 196.5h21.8v108.9h-21.8z"
+                                            fill="#00942c"></path>
+                                    </g>
+                                </svg>
+                                <!-- Copy Text -->
+                                <span class="ml-2" style="scale: 0.8;">Copy!</span>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-400"><strong>IFSC Code: &nbsp;</strong> KKBK0004578</p>
+                            <button onclick="copyToClipboard('KKBK0004578', this)"
+                                class="flex items-center text-gray-400 ml-2 focus:outline-none">
+                                <!-- SVG Icon -->
+                                <svg viewBox="0 0 1024 1024" class="icon" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" fill="#03c200" stroke="#03c200" width="24"
+                                    height="24">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M589.3 260.9v30H371.4v-30H268.9v513h117.2v-304l109.7-99.1h202.1V260.9z"
+                                            fill="#ebebeb"></path>
+                                        <path d="M516.1 371.1l-122.9 99.8v346.8h370.4V371.1z" fill="#ebebeb"></path>
+                                        <path d="M752.7 370.8h21.8v435.8h-21.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h277.3v21.8H495.8z" fill="#00942c"></path>
+                                        <path d="M495.8 370.8h21.8v124.3h-21.8z" fill="#00942c"></path>
+                                        <path d="M397.7 488.7l-15.4-15.4 113.5-102.5 15.4 15.4z" fill="#00942c"></path>
+                                        <path d="M382.3 473.3h135.3v21.8H382.3z" fill="#00942c"></path>
+                                        <path d="M382.3 479.7h21.8v348.6h-21.8zM404.1 806.6h370.4v21.8H404.1z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M447.7 545.1h261.5v21.8H447.7zM447.7 610.5h261.5v21.8H447.7zM447.7 675.8h261.5v21.8H447.7z"
+                                            fill="#a3a3a3"></path>
+                                        <path d="M251.6 763h130.7v21.8H251.6z" fill="#00942c"></path>
+                                        <path
+                                            d="M251.6 240.1h21.8v544.7h-21.8zM687.3 240.1h21.8v130.7h-21.8zM273.4 240.1h108.9v21.8H273.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M578.4 240.1h130.7v21.8H578.4zM360.5 196.5h21.8v108.9h-21.8zM382.3 283.7h196.1v21.8H382.3zM534.8 196.5h65.4v21.8h-65.4z"
+                                            fill="#00942c"></path>
+                                        <path
+                                            d="M360.5 196.5h65.4v21.8h-65.4zM404.1 174.7h152.5v21.8H404.1zM578.4 196.5h21.8v108.9h-21.8z"
+                                            fill="#00942c"></path>
+                                    </g>
+                                </svg>
+                                <!-- Copy Text -->
+                                <span class="ml-2" style="scale: 0.8;">Copy!</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w-full flex justify-center mt-4">
+                        <button id="shareButton"
+                            class="flex items-center text-white bg-gray-700 border-0 py-2 px-4 focus:outline-none hover:bg-gray-400 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share"
+                                width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                            </svg>
+                            <span class="ml-2">Share</span>
+                        </button>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed  text-center w-full mt-5 " style="font-size: small;">
+                        *Please share payment confirmation / snapshot on <br>WhatsApp "+91-9654-327-527" or at
+                        "ecodibba@gmail.com."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="privacy">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class=" body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold  mb-4">Privacy & Policy</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">This Privacy Policy describes how ecodibba.com ("we", "us", or "our")
+                                collects, uses, and
+                                discloses information, including personal information, that we obtain through your use
+                                of our B2B
+                                e-commerce and customized packaging website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <p class="mb-4">By accessing or using the Site, you agree to the terms of this Privacy
+                                Policy. If you do
+                                not agree with the terms of this Privacy Policy, please do not access or use the Site.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Information We Collect</h2>
+                            <p class="mb-4">We may collect the following types of information when you use our Site:</p>
+                            <p class="mb-4"><strong>Personal Information:</strong> When you register for an account,
+                                make a purchase,
+                                or interact with our Site, we may collect personal information such as your name,
+                                company name, contact
+                                information, billing and shipping address, and payment details.</p>
+                            <p class="mb-4"><strong>Log Data:</strong> Like many websites, we automatically collect
+                                certain
+                                information that your browser sends whenever you visit our Site. This may include your
+                                IP address,
+                                browser type, browser version, the pages you visit, the time and date of your visit, and
+                                other
+                                statistics.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. How We Use Your Information</h2>
+                            <p class="mb-4">We use the information we collect for the following purposes:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>To provide, maintain, and improve our services.</li>
+                                <li>To process transactions and fulfill orders.</li>
+                                <li>To communicate with you, including responding to your inquiries and providing
+                                    customer support.</li>
+                                <li>To send you marketing and promotional materials (you can opt-out of receiving
+                                    marketing
+                                    communications).</li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Information Sharing and Disclosure</h2>
+                            <p class="mb-4">We may share your information with third parties under the following
+                                circumstances:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>With your consent.</li>
+                                <li>To third-party service providers who help us operate our business and provide
+                                    services.</li>
+                                <li>In connection with a business transaction, such as a merger, acquisition, or sale of
+                                    assets.</li>
+                                <li>To comply with legal obligations or to protect and defend our rights and property.
+                                </li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Security</h2>
+                            <p class="mb-4">We take reasonable measures to protect the information we collect from
+                                unauthorized
+                                access, disclosure, alteration, and destruction.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Your Choices</h2>
+                            <p class="mb-4">You have choices regarding the collection and use of your information:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>You can update or correct your account information.</li>
+                                <li>You can opt-out of receiving marketing communications.</li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Changes to This Privacy Policy</h2>
+                            <p class="mb-4">We may update our Privacy Policy from time to time. We will notify you of
+                                any changes by
+                                posting the new Privacy Policy on this page.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about this Privacy Policy, please contact us at
+                                +91-9654-327-527
+                                or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    onclick="document.getElementById('privacy').style.display='none'">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="terms">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">TERMS OF USE</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Please read these terms and conditions carefully before using ecodibba.com
+                                ("we," "us," or
+                                "our") B2B e-commerce and customized packaging website (<a
+                                    href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Acceptance of Terms</h2>
+                            <p class="mb-4">By accessing or using the Site, you agree to be bound by these terms and
+                                conditions. If
+                                you do not agree with any part of these terms, please do not use the Site.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Registration and Accounts</h2>
+                            <p class="mb-4">To use certain features of the Site, you may be required to register for an
+                                account. You
+                                agree to provide accurate and current information during the registration process and to
+                                update such
+                                information to keep it accurate and current.</p>
+                            <p class="mb-4">You are responsible for maintaining the confidentiality of your account and
+                                password and
+                                for restricting access to your account.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Product Information and Customization</h2>
+                            <p class="mb-4">We make every effort to display accurate and current information about our
+                                products.
+                                However, we do not warrant the accuracy, completeness, or reliability of any product
+                                descriptions or
+                                images on the Site.</p>
+                            <p class="mb-4">Customized or made-to-order items may have variations, and you acknowledge
+                                that such
+                                variations are inherent in the customization process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Pricing and Payment</h2>
+                            <p class="mb-4">Prices for products are as displayed on the Site and are subject to change
+                                without notice.
+                            </p>
+                            <p class="mb-4">We reserve the right to refuse or cancel orders, including those with
+                                incorrect pricing or
+                                product information.</p>
+                            <p class="mb-4">Payment is required at the time of order placement. We accept [list accepted
+                                payment
+                                methods].</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Order Acceptance and Confirmation</h2>
+                            <p class="mb-4">Order acceptance occurs when we send an order confirmation email.</p>
+                            <p class="mb-4">We reserve the right to refuse or cancel orders at any time, including due
+                                to product
+                                availability, inaccuracies, or errors in product or pricing information.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Intellectual Property</h2>
+                            <p class="mb-4">All content on the Site, including text, images, graphics, and logos, is the
+                                property of
+                                ecodibba.com and is protected by intellectual property laws.</p>
+                            <p class="mb-4">You may not use, reproduce, distribute, or display any part of the Site
+                                without our prior
+                                written consent.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Limitation of Liability</h2>
+                            <p class="mb-4">To the extent permitted by law, we shall not be liable for any indirect,
+                                incidental,
+                                special, consequential, or punitive damages, or any loss of profits or revenues.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Governing Law</h2>
+                            <p class="mb-4">These terms and conditions are governed by and construed in accordance with
+                                the laws of
+                                [Your Jurisdiction].</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">9. Changes to Terms and Conditions</h2>
+                            <p class="mb-4">We reserve the right to update, change, or replace any part of these terms
+                                and conditions
+                                at our discretion. Your continued use of the Site following the posting of any changes
+                                constitutes
+                                acceptance of those changes.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about these terms and conditions, please contact
+                                us at
+                                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    onclick="document.getElementById('terms').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            </div>
+        </div>
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="refund">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">REFUND POLICY</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Thank you for choosing ecodibba.com for your B2B e-commerce and customized
+                                packaging
+                                needs. This Refund Policy outlines the terms and conditions related to the refund of
+                                products ordered
+                                through our website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Refund Eligibility</h2>
+                            <p class="mb-4">Refunds are only applicable to products purchased directly through our Site.
+                                Customized or
+                                made-to-order items are not eligible for refunds, as they are tailored to the customer's
+                                specifications.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Initiation of Refunds</h2>
+                            <p class="mb-4">To initiate a refund, please contact our customer support team at <a
+                                    href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a> within 24
+                                hours of receiving the product. The product must be unused, in its original packaging,
+                                and in the same
+                                condition as when it was received.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Refund Process</h2>
+                            <p class="mb-4">Once your request is received and approved, we will provide instructions for
+                                returning the
+                                product. After the product is received and inspected, we will notify you of the approval
+                                or rejection of
+                                your refund. If approved, the refund will be processed, and a credit will be applied to
+                                your original
+                                method of payment within 10 business days.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Shipping Costs</h2>
+                            <p class="mb-4">Shipping costs are non-refundable unless the return is a result of our error
+                                (e.g., you
+                                received an incorrect or defective item).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Damaged or Defective Items</h2>
+                            <p class="mb-4">If you receive a damaged or defective item, please contact us immediately.
+                                We may require
+                                photographic evidence of the damage or defect before initiating the refund process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Cancellations</h2>
+                            <p class="mb-4">Customized or made-to-order items cannot be canceled once the production
+                                process has
+                                begun. For other products, cancellation requests must be submitted within 24 hours of
+                                order placement.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Changes to Refund Policy</h2>
+                            <p class="mb-4">We reserve the right to update, change, or replace any part of this refund
+                                policy at our
+                                discretion. Your continued use of the Site following the posting of any changes
+                                constitutes acceptance
+                                of those changes.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about this refund policy, please contact us at <a
+                                    href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a> or
+                                +91-9654-327-527.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    onclick="document.getElementById('refund').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+            </div>
+        </div>
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="shipping">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">Shipping Policy</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-lg"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-lg"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Thank you for choosing ecodibba.com for your B2B / B2C e-commerce and
+                                customized packaging
+                                needs. This Shipping Policy outlines the terms and conditions related to the shipping of
+                                products
+                                ordered through our website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Order Processing Time</h2>
+                            <p class="mb-4">Orders are processed within five business days from the date of order (order
+                                date refers
+                                to the date of advance or complete payment). Customized or made-to-order items may
+                                require additional
+                                processing time, and specific timelines will be communicated upon order confirmation.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Shipping Rates and Methods</h2>
+                            <p class="mb-4">Shipping rates are calculated based on the weight, dimensions, and
+                                destination of the
+                                package. We offer various shipping methods, including standard and expedited options.
+                                The available
+                                options will be presented during the checkout or order placement process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Shipping Destinations</h2>
+                            <p class="mb-4">We currently ship to Pan India locations. For international orders, please
+                                note that
+                                customs duties and taxes may apply and are the responsibility of the recipient.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Order Tracking</h2>
+                            <p class="mb-4">Once your order is shipped, you will receive a confirmation email with a
+                                tracking number.
+                                You can track your order through our website or the carrier's website.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Estimated Delivery Times</h2>
+                            <p class="mb-4">Estimated delivery times are provided during the checkout process and are
+                                based on the
+                                shipping method selected. Please note that delivery times are estimates and may vary due
+                                to factors
+                                beyond our control, such as customs processing or carrier delays.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Order Delays</h2>
+                            <p class="mb-4">We strive to meet our estimated delivery times, but delays may occur. If
+                                your order is
+                                significantly delayed, we will notify you and work to resolve the issue promptly.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Shipping Address</h2>
+                            <p class="mb-4">It is the responsibility of the customer to provide an accurate shipping
+                                address during
+                                the checkout process. Any additional charges incurred due to an incorrect address will
+                                be the
+                                responsibility of the customer.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Lost or Damaged Items</h2>
+                            <p class="mb-4">In the rare event that your order is lost or damaged during transit, please
+                                contact us
+                                immediately. We will work with the carrier to initiate an investigation and provide a
+                                resolution.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">9. Returns and Exchanges</h2>
+                            <p class="mb-4">Please refer to our Returns and Exchanges Policy for information on
+                                returning or
+                                exchanging products.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+                            <p class="mb-4">If you have any questions or concerns regarding our shipping policy, please
+                                contact us at
+                                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                                    onclick="document.getElementById('shipping').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+            </div>
+        </div>
+        <hr>
+        <footer class="body-font">
+            <section class="bg-green-500 h-8 overflow-hidden w-full flex items-center">
+                <div class="scrolling-text">
+                    <span>Thank You!! For visiting ecodibba</span>
+                    
+                </div>
+            </section>
+            <div
+                class="container px-5 pb-24 pt-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col footer justify-between ">
+                <div
+                    class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first justify-between w-full">
+                    <!-- First Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4 lg:ml-20">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-2">
+                                <a href="categories.html?cat=bcb" class="text-gray-800 hover:text-green-500">Brown
+                                    Corrugated
+                                    Box</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=wcb" class="text-gray-800 hover:text-green-500">White
+                                    Corrugated
+                                    Box</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=pbox" class="text-gray-800 hover:text-green-500">Paper
+                                    Boxes</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=pbag" class="text-gray-800 hover:text-green-500">Paper Bag</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html" class="text-gray-800 hover:text-green-500">Show more</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Second Column (hidden) -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="display: none;">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">My Account</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Login / Signup</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">My Profile</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Orders</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Address Book</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Track Order</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Third Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Company</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500" href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500" href="payments.html">Payments</a>
+                            </li>
+                            <li onclick="document.getElementById('privacy').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Privacy Policy</a>
+                            </li>
+                            <li onclick="document.getElementById('terms').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Terms and Conditions</a>
+                            </li>
+                            <li onclick="document.getElementById('refund').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Refund Policy</a>
+                            </li>
+                            <li onclick="document.getElementById('shipping').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Shipping Policy</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Fourth Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Contact</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">+91-9654-327-527</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">contact@ecodibba.com</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">ecodibba, Janakpuri, New Delhi, Delhi, India -
+                                    110058</a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col footer justify-between -my-20 "
+                style="width: 88vw;">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-green-500"
+                    id="f-logo">
+                    <img src="assets/logo.png" width="120px" alt="Ecodibba Logo">
+                </a>
+                <p class="text-sm text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+                    id="f-link">
+                    © Copyright ecodibba 2024.
+                    All Rights Reserved. Made with <a class="text-gray-500 ml-1" rel="noopener noreferrer"
+                        target="_blank">❤️ </a>in India.
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" id="fs-link">
+                    <a class="text-green-500" href="https://www.facebook.com/ecodibba" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-green-500" href="https://www.instagram.com/ecodibba/" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-green-500" href="https://www.linkedin.com/company/ecodibba/" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8.64h4.55v14.72H.22V8.64zM7.91 8.64h4.36v2.03h.06c.61-1.14 2.1-2.34 4.32-2.34 4.62 0 5.48 3.04 5.48 6.98v8.05h-4.75v-7.14c0-1.7-.03-3.89-2.37-3.89-2.38 0-2.75 1.85-2.75 3.77v7.27h-4.75V8.64z" />
+                        </svg>
+                    </a>
+
+                    <a class="ml-3 text-green-500" href="https://www.youtube.com/@ecodibba" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M23.498 6.186a2.99 2.99 0 00-2.11-2.118C19.665 3.5 12 3.5 12 3.5s-7.665 0-9.388.568a2.99 2.99 0 00-2.11 2.118C0 8.088 0 12 0 12s0 3.912.502 5.814a2.99 2.99 0 002.11 2.118C4.335 20.5 12 20.5 12 20.5s7.665 0 9.388-.568a2.99 2.99 0 002.11-2.118C24 15.912 24 12 24 12s0-3.912-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+                        </svg>
+                    </a>
+
+
+                </span>
+            </div>
+        </footer>
+
+        <!---->
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+
+        <script>
+
+            function toggle() {
+
+                if (document.getElementById('side-menu').style.transform == "translateX(-100%)") {
+                    document.getElementById('side-menu').style.transform = "translateX(0%)";
+                }
+                else {
+                    document.getElementById('side-menu').style.transform = "translateX(-100%)";
+                }
+
+            }
+            document.getElementById('side-menu').style.transform = "translateX(-100%)";
+
+            const mainImage = document.getElementById('mainImage');
+            const zoomContainer = document.getElementById('zoomContainer');
+
+
+
+            function copyToClipboard(text, button) {
+                navigator.clipboard.writeText(text).then(() => {
+                    button.querySelector('span').textContent = "Copied!";
+                    setTimeout(() => {
+                        button.querySelector('span').textContent = "Copy!";
+                    }, 2500); // Reset to "Copy!" after 2 seconds
+                }).catch(err => {
+                    console.error("Could not copy text: ", err);
+                });
+            }
+
+
+            const shareButton = document.getElementById('shareButton');
+
+            // Predefined image path (can be relative or absolute URL)
+            const imagePath = 'shareble.png'; // Update this to the correct path
+
+            shareButton.addEventListener('click', async () => {
+                // Ensure the browser supports the Web Share API
+                if (navigator.share) {
+                    try {
+                        // Fetch the predefined image file from the server or local directory
+                        const response = await fetch(imagePath);
+                        const blob = await response.blob();
+
+                        // Convert the blob to a file
+                        const file = new File([blob], 'share-image.png', { type: blob.type });
+
+                        // Share the image along with the text and link using Web Share API
+                        await navigator.share({
+                            files: [file],
+                            title: 'Ecodibba Payment',
+                            text: 'Complete your payment to ecodibba here! Check out this page: https://ecodibba.com/payments.html',
+                        });
+
+                        console.log('Image and information shared successfully');
+                    } catch (err) {
+                        console.error('Error sharing the image and information:', err);
+                    }
+                } else {
+                    alert('Web Share API is not supported on this browser.');
+                }
+            });
+
+
+        </script>
+
+
+
+</body>
+
+</html>
