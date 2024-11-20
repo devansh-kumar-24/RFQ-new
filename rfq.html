@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecodibba - Your Packaging Partner </title>
+    <meta name="description"
+        content="Explore Ecodibba for innovative eco-friendly packaging solutions, from custom designs and diverse categories to secure payment options. Discover our commitment to sustainability through our engaging blog and gallery showcasing sustainable packaging ideas tailored for your business needs.">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <section class="  body-font  " id="side-menu">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <nav style="display:flex;flex-direction:column;text-align:left;">
+                    <a class="mr-5 hover:text-green-500 side-links"
+                        onclick="window.location.href = 'index.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'gallery.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="document.getElementById('side-menu').style.transform = 'translateX(-100%)';window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+                        for Quotation</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'categories.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'payments.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="document.getElementById('menu').scrollIntoView();document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';"
+                        style="display: none;">Products</a>
+
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'about.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+                        Us</a>
+                    <a class="mr-5 hover:text-gray-900 side-links"
+                        onclick="window.location.href = 'blogs.html';document.getElementById('side-menu').style.transform = 'translateX(-100%)';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+                </nav>
+            </div>
+    </section>
+
+    <header class="bg-white-900 text-green-500 body-font mx-auto" style="z-index: 700;width:85vw;font-size:x-large;">
+        <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+            <!-- Logo aligned to the left -->
+            <a class="flex title-font font-medium text-gray-900" href="https://ecodibba.com/">
+
+                <img loading="lazy" src="assets/logo.png" alt="logo" class="h-12">
+
+
+            </a>
+
+
+            <!-- Toggle button for mobile -->
+            <button
+                class="md:hidden inline-flex items-center bg-white text-gray-800 border-0 py-1 px-3 focus:outline-none  rounded "
+                onclick="toggle()">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <!-- Navigation links aligned to the right -->
+            <nav id="nav-links"
+                class="hidden md:flex flex-wrap items-center text-green-500 justify-end space-x-6 text-xl" id="links">
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'index.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Home</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'gallery.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Gallery</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.open('https:/'+'/rfq.ecodibba.com/','_blank');document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Request
+                    for Quotation</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'categories.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Categories</a>
+
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'payments.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Payments</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'about.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">About
+                    Us</a>
+                <a class="hover:text-gray-800"
+                    onclick="window.location.href = 'blogs.html';document.getElementById('privacy').style.display='none';document.getElementById('terms').style.display='none';document.getElementById('refund').style.display='none';document.getElementById('shipping').style.display='none';">Blogs</a>
+
+
+            </nav>
+
+        </div>
+        <!-- Mobile Menu -->
+
+    </header>
+    <hr>
+
+    <section class="bg-green-500 h-8 overflow-hidden w-full flex items-center">
+        <div class="scrolling-text">
+            <span>Contact us at ->&nbsp;&nbsp; +91-9654-327-527</span>
+
+        </div>
+    </section>
+
+
+
+
+    <div class="fixed bottom-0 right-0 mb-20 mr-4 bg-gray-800 text-white p-4 rounded flex items-center space-x-2"
+        style="border-radius: 20px 20px 0px 20px;z-index:501;">
+        <a href="https://wa.me/9654327527" target="_blank" class="flex items-center space-x-2">
+            <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+            <span class="text-sm">Chat with us!</span>
+        </a>
+    </div>
+
+
+    <div class=" paralax">
+
+        <section class="text-gray-400  body-font overflow-y-auto my-10 " id="menu">
+            <div class="container px-5 py-0 mx-auto">
+                <div class="flex flex-col text-center w-full my-10">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Choose <span
+                            class="text-green-500">eco-</span>Packaging Categories
+                    </h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-800">Environmental friendly | Cost Effective |
+                        Best
+                        Quality |
+                        Professional Commitment</p>
+
+                </div>
+
+                <div class="flex flex-wrap up-animate">
+                    <div class="swiper-container">
+
+                        <div class="swiper-wrapper ">
+                            <!-- Slides -->
+                            <div class="swiper-slide" onclick="window.location.href = '#box_color';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\1.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Corrugated / Carton Box</h2>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\Fillers.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Fillers</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';"
+                                style="display: none;">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\Recycable-self-adhesive-envelope.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Self-adhesive-envelope</h2>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\Honeycomb-paper.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Honeycomb Paper Roll</h2>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\Pizza-Boxes.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Pizza Boxes</h2>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\plain-corrugated-rolls.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Plain Corrugated Rolls</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\White-Corrugated-Box.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">White Corrugated Boxes</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\wood-wool.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Wood Wool</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\lifestyle.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Lif-Style Boxes</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\2.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Paper Bag</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\thank you.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Thank you card</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\4.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Paper Tags</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\5.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Paper Tapes</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\6.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Rigid / Kappa Box</h2>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide" onclick="window.location.href = '#product';">
+                                <div class=" bg-opacity-40 p-6 rounded-lg box-type">
+                                    <img loading="lazy" class="h-40 rounded w-full object-cover object-center mb-6"
+                                        src="..\assets\box type\7.webp" alt="content">
+
+                                    <h2 class="text-green-800  font-medium title-font mb-4">Paper Box</h2>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Repeat swiper-slide for other slides -->
+
+                    </div>
+
+                    <div class="swiper-pagination" style="position:sticky;height:30px;margin-top:-3%; z-index:300;">
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="text-gray-600  body-font p-10" id="box_color">
+            <div class="container px-5 pt-24 mx-auto">
+                <!-- Previous Button -->
+                <p class="text-green-500 inline-flex items-center mb-10 cursor-pointer hover:text-green-600 transition-all duration-300"
+                    id="prev-4" onclick="window.location.href = '#header';">
+                    <svg fill="none" stroke="currentColor" class="w-5 h-5 mr-2 rotate-180" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                    Previous
+                </p>
+
+                <!-- Box Options -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 ">
+                    <!-- Brown Color Box -->
+                    <div class="mb-10 h-50 w-50">
+                        <div
+                            class="rounded-lg h-64 overflow-hidden transition-transform duration-300 transform hover:scale-105 shadow-lg">
+                            <img alt="Brown Color Box" class="object-cover object-center h-full w-full"
+                                src="..\assets\box type\1.webp">
+                        </div>
+
+                        <p class="leading-relaxed text-base text-gray-700 px-4 mt-5">Rich and earthy, the brown box
+                            exudes
+                            warmth and
+                            sustainability, perfect for an eco-friendly look.</p>
+                        <button
+                            class="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 transition-all duration-300 rounded-lg"
+                            onclick="document.getElementById('product').scrollIntoView();">Select</button>
+                    </div>
+
+                    <!-- White Color Box -->
+                    <div class="mb-10 h-50 w-50">
+                        <div
+                            class="rounded-lg h-64 overflow-hidden transition-transform duration-300 transform hover:scale-105 shadow-lg">
+                            <img alt="White Color Box" class="object-cover object-center h-full w-full"
+                                src="assets/box sheet color/white.png">
+                        </div>
+
+                        <p class="leading-relaxed text-base text-gray-700 px-4 mt-5">Sleek and modern, the white box is
+                            ideal for
+                            minimalistic designs and a clean, professional look.</p>
+                        <button
+                            class="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 transition-all duration-300 rounded-lg"
+                            onclick="document.getElementById('product').scrollIntoView();">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-gray-600 bg-white body-font mx-auto p-6 sm:p-12 lg:p-24 mt-10 mb-24" id="product">
+            <div class="container mx-auto flex flex-col md:flex-row items-center px-5">
+                <!-- Image Section -->
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
+                    <img class="object-cover object-center rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+                        alt="Box Specifications" src="assets/specifications/download.gif">
+                </div>
+
+                <!-- Specifications Section -->
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-12 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
+                    <!-- Previous Button -->
+                    <p class="text-green-500 inline-flex items-center mb-4 cursor-pointer hover:text-green-600 transition-all duration-300"
+                        onclick="window.location.href = '#box_color';">
+                        <svg fill="none" stroke="currentColor" class="w-5 h-5 mr-2 rotate-180" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                        Previous
+                    </p>
+
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-800">Box Specifications</h1>
+                    <p class="mb-4 leading-relaxed text-gray-700">Personalize Your Box with Ease - Just Pick Size &
+                        Print Style!</p>
+
+                    <!-- Number of Sizes -->
+                    <h3 class="text-xl mb-4">Number of Sizes</h3>
+                    <div class="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 mb-6">
+                        <!-- Radio Buttons -->
+                        <div class="flex items-center">
+                            <input type="radio" id="size1" name="box-size" value="1" class="form-radio text-green-500"
+                                checked
+                                onclick="document.getElementById('box-2').classList.add('hidden');document.getElementById('box-3').classList.add('hidden');document.getElementById('box-4').classList.add('hidden');document.getElementById('box-5').classList.add('hidden')">
+                            <label for="size1" class="ml-2 text-gray-800">1</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="radio" id="size2" name="box-size" value="2" class="form-radio text-green-500"
+                                onclick="document.getElementById('box-2').classList.remove('hidden');document.getElementById('box-3').classList.add('hidden');document.getElementById('box-4').classList.add('hidden');document.getElementById('box-5').classList.add('hidden')">
+                            <label for="size2" class="ml-2 text-gray-800">2</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="radio" id="size3" name="box-size" value="3" class="form-radio text-green-500"
+                                onclick="document.getElementById('box-2').classList.remove('hidden');document.getElementById('box-3').classList.remove('hidden');document.getElementById('box-4').classList.add('hidden');document.getElementById('box-5').classList.add('hidden')">
+                            <label for="size3" class="ml-2 text-gray-800">3</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="radio" id="size4" name="box-size" value="4" class="form-radio text-green-500"
+                                onclick="document.getElementById('box-2').classList.remove('hidden');document.getElementById('box-3').classList.remove('hidden');document.getElementById('box-4').classList.remove('hidden');document.getElementById('box-5').classList.add('hidden')">
+                            <label for="size4" class="ml-2 text-gray-800">4</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="radio" id="size5" name="box-size" value="5" class="form-radio text-green-500"
+                                onclick="document.getElementById('box-2').classList.remove('hidden');document.getElementById('box-3').classList.remove('hidden');document.getElementById('box-4').classList.remove('hidden');document.getElementById('box-5').classList.remove('hidden')">
+                            <label for="size5" class="ml-2 text-gray-800">5</label>
+                        </div>
+                    </div>
+
+                    <!-- Dimension Inputs -->
+                    <div class="space-y-4 w-full">
+                        <div id="box-1" class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label for="length" class="text-sm text-gray-600">Length (inches)</label>
+                                <input type="text" id="length" name="length"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="width" class="text-sm text-gray-600">Width (inches)</label>
+                                <input type="text" id="width" name="width"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="height" class="text-sm text-gray-600">Height (inches)</label>
+                                <input type="text" id="height" name="height"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+    
+                        <div id="box-2" class="grid grid-cols-3 gap-4 hidden">
+                            <div>
+                                <label for="length" class="text-sm text-gray-600">Length (inches)</label>
+                                <input type="text" id="length" name="length"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="width" class="text-sm text-gray-600">Width (inches)</label>
+                                <input type="text" id="width" name="width"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="height" class="text-sm text-gray-600">Height (inches)</label>
+                                <input type="text" id="height" name="height"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+    
+                        <div id="box-3" class="grid grid-cols-3 gap-4 hidden">
+                            <div>
+                                <label for="length" class="text-sm text-gray-600">Length (inches)</label>
+                                <input type="text" id="length" name="length"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="width" class="text-sm text-gray-600">Width (inches)</label>
+                                <input type="text" id="width" name="width"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="height" class="text-sm text-gray-600">Height (inches)</label>
+                                <input type="text" id="height" name="height"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+    
+                        <div id="box-4" class="grid grid-cols-3 gap-4 hidden">
+                            <div>
+                                <label for="length" class="text-sm text-gray-600">Length (inches)</label>
+                                <input type="text" id="length" name="length"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="width" class="text-sm text-gray-600">Width (inches)</label>
+                                <input type="text" id="width" name="width"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="height" class="text-sm text-gray-600">Height (inches)</label>
+                                <input type="text" id="height" name="height"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+    
+                        <div id="box-5" class="grid grid-cols-3 gap-4 hidden">
+                            <div>
+                                <label for="length" class="text-sm text-gray-600">Length (inches)</label>
+                                <input type="text" id="length" name="length"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="width" class="text-sm text-gray-600">Width (inches)</label>
+                                <input type="text" id="width" name="width"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                            <div>
+                                <label for="height" class="text-sm text-gray-600">Height (inches)</label>
+                                <input type="text" id="height" name="height"
+                                    class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Printed Option -->
+                    <div class="w-full sm:w-1/2 mt-6">
+                        <label for="printed" class="leading-7 text-sm text-gray-600">Printed</label>
+                        <select id="printed" name="printed"
+                            class="w-full h-10 bg-gray-200 rounded border border-gray-300 text-gray-800 px-3 focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                            <option value="" selected>Choose an option</option>
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="text-gray-600 body-font p-10" id="print">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <!-- Image Section -->
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 w-full h-auto"
+                        alt="Print Specifications" src="..\assets\backdrop\5156397.jpg">
+                </div>
+        
+                <!-- Text and Form Section -->
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <!-- Previous Button -->
+                    <p class="text-green-500 inline-flex items-center mb-4 cursor-pointer hover:text-green-600 transition-all duration-300"
+                        id="prev-2" aria-label="Go to product section" onclick="window.location.href = '#product';">
+                        <svg fill="none" stroke="currentColor" style="rotate: -180deg; margin-left:-2%"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>Previous
+                    </p>
+        
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-800">Print requirements</h1>
+                    <p class="mb-8 leading-relaxed text-gray-700">Tailor Your Printing Details: Choose Colors and Upload
+                        Your Design to Get Started!</p>
+        
+                    <!-- Color Selection -->
+                    <div class="flex w-full md:justify-start justify-center items-end">
+                        <div class="relative w-full md:w-1/2 mb-4">
+                            <label for="color" class="leading-7 text-sm text-gray-600">Color</label>
+                            <select name="color" id="color" aria-label="Select color"
+                                class="w-full bg-gray-200 rounded border border-gray-400 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <!-- Upload Design Button -->
+                    <div class="flex w-full md:justify-start justify-center items-end">
+                        <div class="relative w-full md:w-1/2">
+                            <button aria-label="Upload design"
+                                class="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-lg transition-all duration-300">
+                                Upload Design
+                            </button>
+                        </div>
+                    </div>
+        
+                    <!-- Next Button -->
+                    <p class="text-green-500 inline-flex items-center mt-4 cursor-pointer hover:text-green-600 transition-all duration-300"
+                        id="Next-1" aria-label="Go to order section" onclick="window.location.href = '#order';">
+                        Next
+                        <svg fill="none" stroke="currentColor" style="margin-left: -2%" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <!-- Quote Details Section -->
+
+        <section class="text-gray-600 body-font pt-5 pb-10 mb-10" id="order">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style="margin-top: 5%;">
+                <!-- Image Section -->
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                        alt="Quote Details" src="..\assets\backdrop\SL-120921-47200-19.jpg">
+                </div>
+
+                <!-- Text and Form Section -->
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <!-- Previous Button -->
+                    <p class="text-green-500 inline-flex items-center mb-4 cursor-pointer hover:text-green-600 transition-all duration-300"
+                        id="prev-3" onclick="window.location.href = '#print';">
+                        <svg fill="none" stroke="currentColor" style="rotate: -180deg; margin-left:-2%"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>Previous
+                    </p>
+
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-800">Quote Breakdown
+                    </h1>
+                    <p class="mb-8 leading-relaxed text-gray-700">Enter Your Details Below for a Quote: Include
+                        Quantity, Budget, and Any Special Requests.</p>
+
+                    <!-- Input Fields (Quantity, Budget, Delivery) -->
+                    <div class="flex w-full md:justify-start justify-center items-end mb-4">
+                        <!-- Quantity Field -->
+                        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+                            <label for="quantity" class="leading-7 text-sm text-gray-600">Quantity</label>
+                            <input type="text" id="quantity" name="quantity"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <!-- Budget Field -->
+                        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+                            <label for="budget" class="leading-7 text-sm text-gray-600">Budget</label>
+                            <input type="text" id="budget" name="budget"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <!-- Delivery Time -->
+                        <div class="relative lg:w-full xl:w-1/2 w-2/4">
+                            <label for="delivery" class="leading-7 text-sm text-gray-600">Delivery within</label>
+                            <select id="delivery"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                                <option value="" selected disabled>Select</option>
+                                <option value="1">1 Day</option>
+                                <option value="2">2 Days</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Additional Input Fields (Sourcing Purpose, Company Name, GST Number) -->
+                    <div class="flex w-full md:justify-start justify-center items-end">
+                        <!-- Sourcing Purpose -->
+                        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+                            <label for="sourcing" class="leading-7 text-sm text-gray-600">Sourcing Purpose</label>
+                            <select id="sourcing"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                                <option value="" selected disabled>Select</option>
+                                <option value="1">Personal</option>
+                                <option value="2">Business</option>
+                            </select>
+                        </div>
+                        <!-- Company Name -->
+                        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+                            <label for="company" class="leading-7 text-sm text-gray-600">Company Name</label>
+                            <input type="text" id="company" name="company"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <!-- GST Number -->
+                        <div class="relative lg:w-full xl:w-1/2 w-2/4">
+                            <label for="gst" class="leading-7 text-sm text-gray-600">GST Number</label>
+                            <input type="text" id="gst" name="gst"
+                                class="w-full bg-gray-200 rounded border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 text-base outline-none text-gray-800 py-2 px-3 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+
+                    <!-- Next Button -->
+                    <p class="text-green-500 inline-flex items-center mt-4 cursor-pointer hover:text-green-600 transition-all duration-300"
+                        id="Next-2" onclick="window.location.href = '#Contact_Details';">
+                        Next
+                        <svg fill="none" stroke="currentColor" style="margin-left:-2%" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-gray-400 bg-white body-font relative px-4 sm:px-10" id="Contact_Details">
+            <div class="container mx-auto py-12 sm:py-24">
+                <!-- Header Section -->
+                <div class="flex flex-col text-center w-full mb-8 sm:mb-12">
+                    <h1
+                        class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+                        Contact Details
+                    </h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">
+                        Tell Us How to Reach You! - Fill in Your Contact Details, and We'll Be in Touch Soon.
+                    </p>
+                </div>
+
+                <!-- Form Section -->
+                <div class="lg:w-1/2 md:w-2/3 w-full mx-auto bg-gray-100 p-6 sm:p-8 rounded-lg shadow-lg">
+                    <div class="flex flex-wrap -m-2">
+                        <!-- Name Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="c-name" class="leading-7 text-sm text-gray-600">Name</label>
+                                <input type="text" id="c-name" name="c-name"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="c-email" class="leading-7 text-sm text-gray-600">Email</label>
+                                <input type="email" id="c-email" name="c-email"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="c-phone" class="leading-7 text-sm text-gray-600">Phone Number</label>
+                                <input type="text" id="c-phone" name="c-phone"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Alt Phone Number -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="alt-c-phone" class="leading-7 text-sm text-gray-600">Alt. Phone
+                                    Number</label>
+                                <input type="text" id="alt-c-phone" name="alt-c-phone"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="flex justify-between mt-6">
+                        <!-- Previous Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white mr-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#order';">
+                            Prev.
+                        </button>
+                        <!-- Next Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white ml-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#Billing_Details';">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Profile Building -->
+
+        <section class="text-gray-400 bg-white body-font relative p-6 sm:p-10" id="Billing_Details">
+            <div class="container px-4 sm:px-5 py-16 sm:py-24 mx-auto">
+                <!-- Header Section -->
+                <div class="flex flex-col text-center w-full mb-12">
+                    <h1
+                        class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+                        Billing Details
+                    </h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">
+                        Please Provide Your Billing Information to Continue with Checkout.
+                    </p>
+                </div>
+
+                <!-- Form Section -->
+                <div class="lg:w-1/2 md:w-2/3 mx-auto bg-gray-100 p-6 sm:p-8 rounded-lg shadow-lg">
+                    <div class="flex flex-wrap -m-2">
+                        <!-- Name Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="b-name" class="leading-7 text-sm text-gray-600">Name</label>
+                                <input type="text" id="b-name" name="b-name"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Pin Code Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="b-pin" class="leading-7 text-sm text-gray-600">Pin Code</label>
+                                <input type="text" id="b-pin" name="b-pin"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- State Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="b-state" class="leading-7 text-sm text-gray-600">State</label>
+                                <input type="text" id="b-state" name="b-state"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- City Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="b-city" class="leading-7 text-sm text-gray-600">City</label>
+                                <input type="text" id="b-city" name="b-city"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Billing Address -->
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label for="b-address" class="leading-7 text-sm text-gray-600">Billing Address</label>
+                                <textarea id="b-address" name="b-address"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 resize-none leading-6"
+                                    placeholder="Enter your complete billing address here."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="flex justify-between mt-6">
+                        <!-- Previous Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white mr-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#order';">
+                            Prev.
+                        </button>
+                        <!-- Next Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white ml-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#Billing_Details';">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Building -->
+
+        <section class="text-gray-400 bg-white body-font relative px-4 sm:px-10" id="Shipping_Details">
+            <div class="container mx-auto py-12 sm:py-24">
+                <!-- Header Section -->
+                <div class="flex flex-col text-center w-full mb-8 sm:mb-12">
+                    <h1
+                        class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+                        Shipping Details
+                    </h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">
+                        Enter Your Shipping Details to Finalize Your Order.
+                    </p>
+                </div>
+
+                <!-- Form Section -->
+                <div class="lg:w-1/2 md:w-2/3 w-full mx-auto bg-gray-100 p-6 sm:p-8 rounded-lg shadow-lg">
+                    <div class="flex flex-wrap -m-2">
+                        <!-- Name Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="s-name" class="leading-7 text-sm text-gray-600">Name</label>
+                                <input type="text" id="s-name" name="s-name"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Pin Code Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="s-pin" class="leading-7 text-sm text-gray-600">Pin Code</label>
+                                <input type="text" id="s-pin" name="s-pin"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Phone Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="s-phone" class="leading-7 text-sm text-gray-600">Phone No.</label>
+                                <input type="text" id="s-phone" name="s-phone"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- State Input -->
+                        <div class="p-2 w-full sm:w-1/2">
+                            <div class="relative">
+                                <label for="s-state" class="leading-7 text-sm text-gray-600">State</label>
+                                <input type="text" id="s-state" name="s-state"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 leading-8">
+                            </div>
+                        </div>
+
+                        <!-- Shipping Address Input -->
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label for="s-address" class="leading-7 text-sm text-gray-600">Shipping Address</label>
+                                <textarea id="s-address" name="s-address"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out text-base outline-none text-gray-900 py-2 px-3 resize-none leading-6"
+                                    placeholder="Please enter your full address with city and state."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between mt-6">
+                        <!-- Previous Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white mr-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#order';">
+                            Prev.
+                        </button>
+                        <!-- Next Button -->
+                        <button
+                            class="w-1/2 sm:w-auto text-white ml-2 bg-green-500 hover:bg-green-600 border-0 py-2 px-6 sm:px-8 focus:outline-none hover:shadow-lg transition duration-300 ease-in-out rounded-lg shadow-md"
+                            onclick="window.location.href = '#Billing_Details';">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Saving Animation-->
+        <section class="text-gray-400 bg-white body-font" id="loader1">
+            <div class="container px-4 sm:px-5 py-16 sm:py-24 mx-auto">
+                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                    <!-- Loader Animation -->
+                    <div class="flex justify-center items-center">
+                        <img src="Animation - 1.gif" alt="Loading animation" class="w-32 sm:w-40">
+                    </div>
+
+                    <!-- Loading Text -->
+                    <p class="leading-relaxed text-lg mt-4 text-gray-700">Please wait, saving...</p>
+
+                    <!-- Separator -->
+                    <span class="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
+
+                    <!-- Designer Info -->
+                    <h2 class="text-gray-800 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+                    <p class="text-gray-500">Senior Product Designer</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Notifications -->
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="privacy">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class=" body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold  mb-4">Privacy & Policy</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-green-800"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-green-800"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">This Privacy Policy describes how ecodibba.com ("we", "us", or "our")
+                                collects, uses, and
+                                discloses information, including personal information, that we obtain through your use
+                                of our B2B
+                                e-commerce and customized packaging website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <p class="mb-4">By accessing or using the Site, you agree to the terms of this Privacy
+                                Policy. If you do
+                                not agree with the terms of this Privacy Policy, please do not access or use the Site.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Information We Collect</h2>
+                            <p class="mb-4">We may collect the following types of information when you use our Site:</p>
+                            <p class="mb-4"><strong>Personal Information:</strong> When you register for an account,
+                                make a purchase,
+                                or interact with our Site, we may collect personal information such as your name,
+                                company name, contact
+                                information, billing and shipping address, and payment details.</p>
+                            <p class="mb-4"><strong>Log Data:</strong> Like many websites, we automatically collect
+                                certain
+                                information that your browser sends whenever you visit our Site. This may include your
+                                IP address,
+                                browser type, browser version, the pages you visit, the time and date of your visit, and
+                                other
+                                statistics.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. How We Use Your Information</h2>
+                            <p class="mb-4">We use the information we collect for the following purposes:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>To provide, maintain, and improve our services.</li>
+                                <li>To process transactions and fulfill orders.</li>
+                                <li>To communicate with you, including responding to your inquiries and providing
+                                    customer support.</li>
+                                <li>To send you marketing and promotional materials (you can opt-out of receiving
+                                    marketing
+                                    communications).</li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Information Sharing and Disclosure</h2>
+                            <p class="mb-4">We may share your information with third parties under the following
+                                circumstances:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>With your consent.</li>
+                                <li>To third-party service providers who help us operate our business and provide
+                                    services.</li>
+                                <li>In connection with a business transaction, such as a merger, acquisition, or sale of
+                                    assets.</li>
+                                <li>To comply with legal obligations or to protect and defend our rights and property.
+                                </li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Security</h2>
+                            <p class="mb-4">We take reasonable measures to protect the information we collect from
+                                unauthorized
+                                access, disclosure, alteration, and destruction.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Your Choices</h2>
+                            <p class="mb-4">You have choices regarding the collection and use of your information:</p>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>You can update or correct your account information.</li>
+                                <li>You can opt-out of receiving marketing communications.</li>
+                            </ul>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Changes to This Privacy Policy</h2>
+                            <p class="mb-4">We may update our Privacy Policy from time to time. We will notify you of
+                                any changes by
+                                posting the new Privacy Policy on this page.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about this Privacy Policy, please contact us at
+                                +91-9654-327-527
+                                or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-green-800"
+                                    onclick="document.getElementById('privacy').style.display='none'">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="terms">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">TERMS OF USE</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-green-800"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-green-800"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Please read these terms and conditions carefully before using ecodibba.com
+                                ("we," "us," or
+                                "our") B2B e-commerce and customized packaging website (<a
+                                    href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Acceptance of Terms</h2>
+                            <p class="mb-4">By accessing or using the Site, you agree to be bound by these terms and
+                                conditions. If
+                                you do not agree with any part of these terms, please do not use the Site.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Registration and Accounts</h2>
+                            <p class="mb-4">To use certain features of the Site, you may be required to register for an
+                                account. You
+                                agree to provide accurate and current information during the registration process and to
+                                update such
+                                information to keep it accurate and current.</p>
+                            <p class="mb-4">You are responsible for maintaining the confidentiality of your account and
+                                password and
+                                for restricting access to your account.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Product Information and Customization</h2>
+                            <p class="mb-4">We make every effort to display accurate and current information about our
+                                products.
+                                However, we do not warrant the accuracy, completeness, or reliability of any product
+                                descriptions or
+                                images on the Site.</p>
+                            <p class="mb-4">Customized or made-to-order items may have variations, and you acknowledge
+                                that such
+                                variations are inherent in the customization process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Pricing and Payment</h2>
+                            <p class="mb-4">Prices for products are as displayed on the Site and are subject to change
+                                without notice.
+                            </p>
+                            <p class="mb-4">We reserve the right to refuse or cancel orders, including those with
+                                incorrect pricing or
+                                product information.</p>
+                            <p class="mb-4">Payment is required at the time of order placement. We accept [list accepted
+                                payment
+                                methods].</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Order Acceptance and Confirmation</h2>
+                            <p class="mb-4">Order acceptance occurs when we send an order confirmation email.</p>
+                            <p class="mb-4">We reserve the right to refuse or cancel orders at any time, including due
+                                to product
+                                availability, inaccuracies, or errors in product or pricing information.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Intellectual Property</h2>
+                            <p class="mb-4">All content on the Site, including text, images, graphics, and logos, is the
+                                property of
+                                ecodibba.com and is protected by intellectual property laws.</p>
+                            <p class="mb-4">You may not use, reproduce, distribute, or display any part of the Site
+                                without our prior
+                                written consent.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Limitation of Liability</h2>
+                            <p class="mb-4">To the extent permitted by law, we shall not be liable for any indirect,
+                                incidental,
+                                special, consequential, or punitive damages, or any loss of profits or revenues.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Governing Law</h2>
+                            <p class="mb-4">These terms and conditions are governed by and construed in accordance with
+                                the laws of
+                                [Your Jurisdiction].</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">9. Changes to Terms and Conditions</h2>
+                            <p class="mb-4">We reserve the right to update, change, or replace any part of these terms
+                                and conditions
+                                at our discretion. Your continued use of the Site following the posting of any changes
+                                constitutes
+                                acceptance of those changes.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about these terms and conditions, please contact
+                                us at
+                                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-green-800"
+                                    onclick="document.getElementById('terms').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            </div>
+        </div>
+
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="refund">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">REFUND POLICY</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-green-800"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-green-800"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Thank you for choosing ecodibba.com for your B2B e-commerce and customized
+                                packaging
+                                needs. This Refund Policy outlines the terms and conditions related to the refund of
+                                products ordered
+                                through our website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Refund Eligibility</h2>
+                            <p class="mb-4">Refunds are only applicable to products purchased directly through our Site.
+                                Customized or
+                                made-to-order items are not eligible for refunds, as they are tailored to the customer's
+                                specifications.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Initiation of Refunds</h2>
+                            <p class="mb-4">To initiate a refund, please contact our customer support team at <a
+                                    href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a> within 24
+                                hours of receiving the product. The product must be unused, in its original packaging,
+                                and in the same
+                                condition as when it was received.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Refund Process</h2>
+                            <p class="mb-4">Once your request is received and approved, we will provide instructions for
+                                returning the
+                                product. After the product is received and inspected, we will notify you of the approval
+                                or rejection of
+                                your refund. If approved, the refund will be processed, and a credit will be applied to
+                                your original
+                                method of payment within 10 business days.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Shipping Costs</h2>
+                            <p class="mb-4">Shipping costs are non-refundable unless the return is a result of our error
+                                (e.g., you
+                                received an incorrect or defective item).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Damaged or Defective Items</h2>
+                            <p class="mb-4">If you receive a damaged or defective item, please contact us immediately.
+                                We may require
+                                photographic evidence of the damage or defect before initiating the refund process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Cancellations</h2>
+                            <p class="mb-4">Customized or made-to-order items cannot be canceled once the production
+                                process has
+                                begun. For other products, cancellation requests must be submitted within 24 hours of
+                                order placement.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Changes to Refund Policy</h2>
+                            <p class="mb-4">We reserve the right to update, change, or replace any part of this refund
+                                policy at our
+                                discretion. Your continued use of the Site following the posting of any changes
+                                constitutes acceptance
+                                of those changes.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Contact Us</h2>
+                            <p class="mb-4">If you have any questions about this refund policy, please contact us at <a
+                                    href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a> or
+                                +91-9654-327-527.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-green-800"
+                                    onclick="document.getElementById('refund').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+            </div>
+        </div>
+        <div class="notification fixed inset-0  backdrop-blur-sm flex items-center justify-center z-50" id="shipping">
+            <div class="pop-ups bg-gray-200 rounded-lg p-8 shadow-lg">
+                <section class="text-black body-font relative">
+                    <div class="container px-5 py-24 mx-auto max-h-screen overflow-y-auto">
+                        <div class="flex flex-col text-center w-full mb-12">
+                            <h1 class="text-3xl font-bold mb-4">Shipping Policy</h1>
+
+                        </div>
+
+                        <div class="w-full lg:w-2/3 mx-auto text-left">
+                            <p class="text-green-800"><strong>Published:</strong> 25th Nov'2023</p>
+                            <p class="text-green-800"><strong>Effective:</strong> 25th Nov'2023</p>
+                            <br>
+                            <p class="mb-4">Thank you for choosing ecodibba.com for your B2B / B2C e-commerce and
+                                customized packaging
+                                needs. This Shipping Policy outlines the terms and conditions related to the shipping of
+                                products
+                                ordered through our website (<a href="http://www.ecodibba.com"
+                                    class="text-blue-500 underline">www.ecodibba.com</a>).</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">1. Order Processing Time</h2>
+                            <p class="mb-4">Orders are processed within five business days from the date of order (order
+                                date refers
+                                to the date of advance or complete payment). Customized or made-to-order items may
+                                require additional
+                                processing time, and specific timelines will be communicated upon order confirmation.
+                            </p>
+
+                            <h2 class="text-2xl font-semibold mb-2">2. Shipping Rates and Methods</h2>
+                            <p class="mb-4">Shipping rates are calculated based on the weight, dimensions, and
+                                destination of the
+                                package. We offer various shipping methods, including standard and expedited options.
+                                The available
+                                options will be presented during the checkout or order placement process.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">3. Shipping Destinations</h2>
+                            <p class="mb-4">We currently ship to Pan India locations. For international orders, please
+                                note that
+                                customs duties and taxes may apply and are the responsibility of the recipient.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">4. Order Tracking</h2>
+                            <p class="mb-4">Once your order is shipped, you will receive a confirmation email with a
+                                tracking number.
+                                You can track your order through our website or the carrier's website.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">5. Estimated Delivery Times</h2>
+                            <p class="mb-4">Estimated delivery times are provided during the checkout process and are
+                                based on the
+                                shipping method selected. Please note that delivery times are estimates and may vary due
+                                to factors
+                                beyond our control, such as customs processing or carrier delays.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">6. Order Delays</h2>
+                            <p class="mb-4">We strive to meet our estimated delivery times, but delays may occur. If
+                                your order is
+                                significantly delayed, we will notify you and work to resolve the issue promptly.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">7. Shipping Address</h2>
+                            <p class="mb-4">It is the responsibility of the customer to provide an accurate shipping
+                                address during
+                                the checkout process. Any additional charges incurred due to an incorrect address will
+                                be the
+                                responsibility of the customer.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">8. Lost or Damaged Items</h2>
+                            <p class="mb-4">In the rare event that your order is lost or damaged during transit, please
+                                contact us
+                                immediately. We will work with the carrier to initiate an investigation and provide a
+                                resolution.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">9. Returns and Exchanges</h2>
+                            <p class="mb-4">Please refer to our Returns and Exchanges Policy for information on
+                                returning or
+                                exchanging products.</p>
+
+                            <h2 class="text-2xl font-semibold mb-2">10. Contact Us</h2>
+                            <p class="mb-4">If you have any questions or concerns regarding our shipping policy, please
+                                contact us at
+                                +91-9654-327-527 or <a href="mailto:contact@ecodibba.com"
+                                    class="text-blue-500 underline">contact@ecodibba.com</a>.</p>
+                        </div>
+
+                        <div class="flex justify-center mt-8">
+                            <div class="p-2">
+                                <button
+                                    class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-green-800"
+                                    onclick="document.getElementById('shipping').style.display='none'">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <hr>
+        <footer class="body-font">
+            <section class="bg-green-500 h-8 overflow-hidden w-full flex items-center">
+                <div class="scrolling-text">
+                    <span>Thank You!! For visiting ecodibba</span>
+
+                </div>
+            </section>
+            <div
+                class="container px-5 pb-24 pt-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col footer justify-between ">
+                <div
+                    class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first justify-between w-full">
+                    <!-- First Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4 lg:ml-20">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-2">
+                                <a href="categories.html?cat=bcb" class="text-gray-800 hover:text-green-500">Brown
+                                    Corrugated
+                                    Box</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=wcb" class="text-gray-800 hover:text-green-500">White
+                                    Corrugated
+                                    Box</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=pbox" class="text-gray-800 hover:text-green-500">Paper
+                                    Boxes</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html?cat=pbag" class="text-gray-800 hover:text-green-500">Paper
+                                    Bag</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="categories.html" class="text-gray-800 hover:text-green-500">Show more</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Second Column (hidden) -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="display: none;">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">My Account</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Login / Signup</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">My Profile</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Orders</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Address Book</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-gray-800 hover:text-green-500">Track Order</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Third Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Company</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500" href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500" href="payments.html">Payments</a>
+                            </li>
+                            <li onclick="document.getElementById('privacy').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Privacy Policy</a>
+                            </li>
+                            <li onclick="document.getElementById('terms').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Terms and Conditions</a>
+                            </li>
+                            <li onclick="document.getElementById('refund').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Refund Policy</a>
+                            </li>
+                            <li onclick="document.getElementById('shipping').style.display='block'">
+                                <a class="text-gray-800 hover:text-green-500">Shipping Policy</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <!-- Fourth Column -->
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-green-500 tracking-widest text-sm mb-3">Contact</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">+91-9654-327-527</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">contact@ecodibba.com</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-800 hover:text-green-500">ecodibba, Janakpuri, New Delhi, Delhi,
+                                    India -
+                                    110058</a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col footer justify-between -my-20 "
+                style="width: 88vw;">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-green-500"
+                    id="f-logo">
+                    <img loading="lazy" src="assets/logo.png" width="120px" alt="Ecodibba Logo">
+                </a>
+                <p class="text-sm text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"
+                    id="f-link">
+                    © Copyright ecodibba 2024.
+                    All Rights Reserved. Made with <a class="text-gray-500 ml-1" rel="noopener noreferrer"
+                        target="_blank">❤️ </a>in India.
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start" id="fs-link">
+                    <a class="text-green-500" href="https://www.facebook.com/ecodibba" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-green-500" href="https://www.instagram.com/ecodibba/" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-green-500" href="https://www.linkedin.com/company/ecodibba/" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8.64h4.55v14.72H.22V8.64zM7.91 8.64h4.36v2.03h.06c.61-1.14 2.1-2.34 4.32-2.34 4.62 0 5.48 3.04 5.48 6.98v8.05h-4.75v-7.14c0-1.7-.03-3.89-2.37-3.89-2.38 0-2.75 1.85-2.75 3.77v7.27h-4.75V8.64z" />
+                        </svg>
+                    </a>
+
+                    <a class="ml-3 text-green-500" href="https://www.youtube.com/@ecodibba" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M23.498 6.186a2.99 2.99 0 00-2.11-2.118C19.665 3.5 12 3.5 12 3.5s-7.665 0-9.388.568a2.99 2.99 0 00-2.11 2.118C0 8.088 0 12 0 12s0 3.912.502 5.814a2.99 2.99 0 002.11 2.118C4.335 20.5 12 20.5 12 20.5s7.665 0 9.388-.568a2.99 2.99 0 002.11-2.118C24 15.912 24 12 24 12s0-3.912-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+                        </svg>
+                    </a>
+
+
+                </span>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+
+            // JavaScript for Carousel Functionality
+
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                autoplay: {
+                    delay: 1750, // Delay between slides in milliseconds (3 seconds)
+                    disableOnInteraction: false, // Autoplay won't stop after user interactions
+                    reverseDirection: true,
+                },
+                navigation: {
+
+                    prevEl: '.swiper-button-prev',
+                },
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                slidesPerView: 1,
+                spaceBetween: 35,
+                breakpoints: {
+                    640: { slidesPerView: 1 },
+                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                    1280: { slidesPerView: 4 },
+                }
+            });
+
+            function toggle() {
+
+                if (document.getElementById('side-menu').style.transform == "translateX(-100%)") {
+                    document.getElementById('side-menu').style.transform = "translateX(0%)";
+                }
+                else {
+                    document.getElementById('side-menu').style.transform = "translateX(-100%)";
+                }
+
+            }
+            document.getElementById('side-menu').style.transform = "translateX(-100%)";
+
+
+
+
+        </script>
+
+
+
+</body>
+
+</html>
